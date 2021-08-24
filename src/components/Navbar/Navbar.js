@@ -43,7 +43,7 @@ function Navbar() {
             <div className="mobile__nav-logo">
                 <img src={SwissLogo} alt="Swiss Logo" />
             </div>
-            <div className="mobile__nav-hamburger" onClick={navToggleHnadler}>
+            <div className={clsx(!toggleNav? "mobile__nav-hamburger-open" :"mobile__nav-hamburger-close"  )}onClick={navToggleHnadler}>
                 <div className="nav-ham-item"></div>
                 <div className="nav-ham-item"></div>
                 <div className="nav-ham-item"></div>

@@ -121,11 +121,25 @@
        height: 4.8rem; 
     }
 
-    .mobile__nav-hamburger{
+    .mobile__nav-hamburger-open{
         display: grid;
         grid-template-columns: repeat(2, 1fr);
-        gap: 1rem
+        gap: 1rem;
+        transition: all .3s;
     }
+    .mobile__nav-hamburger-close{
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        gap: .3rem;
+        transition: all .3s;
+
+    }
+
+/* .mobile__nav-hamburger-close{
+    display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 1rem
+} */
 
     .nav-ham-item{
         height: .6rem;
@@ -192,6 +206,8 @@
         width: 100%;
         padding: 0 4rem;
     }
+
+    
 
 
     .hide-nav{
