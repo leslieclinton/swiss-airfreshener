@@ -14,16 +14,14 @@
 .productpreview p{
     font-size: 1.6rem ;
     text-align: center;
-    width: 35%;
+    width: 40%;
     margin: 0 auto;
-    margin-bottom: 7rem;
-
+    margin-bottom: 6rem;
 }
 
 .productpreview-products{
     height: 45rem;
     width: 34rem;
-    background: green;
     padding: 3rem 0;
     display: flex;
     align-items: flex-end;
@@ -32,11 +30,84 @@
     transition: all .5s;
 }
 
-.productpreview-products:hover{
-    margin-top: -.8rem;
+.productpreview-images-1{
+    background: url('../../assets/Images/swiss-regular-page-img.jpg') no-repeat;
+    background-size: 150%;
+    background-position: center;
+    transition: all .5s;
+    /* background: coral; */
 }
 
+.productpreview-images-1:hover{
+    background: url('../../assets/Images/swiss-regular-page-img.jpg') no-repeat;
+    background-size: 160%;
+    background-position: center;
+}
 
+.productpreview-images-2{
+    background: url('../../assets/Images/swiss-regular-page-img.jpg') no-repeat;
+    background-size: 150%;
+    background-position: center;
+    transition: all .5s;
+}
+
+.productpreview-images-2:hover{
+    background: url('../../assets/Images/swiss-regular-page-img.jpg') no-repeat;
+    background-size: 160%;
+    background-position: center;
+
+}
+
+.productpreview-images-3{
+    background: url('../../assets/Images/swiss-card-page-img.jpg') no-repeat;
+    background-size: 150%;
+    background-position: center;
+    transition: all .5s;
+
+}
+
+.productpreview-images-3:hover{
+    background: url('../../assets/Images/swiss-card-page-img.jpg') no-repeat;
+    background-size: 160%;
+    background-position: center;
+
+}
+
+.productpreview-images-4{
+    background: url('../../assets/Images/swiss-scentpad-page-img.jpg') no-repeat;
+    background-size: 150%;
+    background-position: center;
+    background-position: 55%;
+    transition: all .5s;
+
+}
+
+.productpreview-images-4:hover{
+    background: url('../../assets/Images/swiss-scentpad-page-img.jpg') no-repeat;
+    background-size: 160%;
+    background-position: center;
+
+}
+
+.productpreview-images-5{
+    background: url('../../assets/Images/swiss-scentpad-page-img.jpg') no-repeat;
+    background-size: 150%;
+    background-position: center;
+    background-position: 55%;
+    transition: all .5s;
+
+}
+
+.productpreview-images-5:hover{
+    background: url('../../assets/Images/swiss-scentpad-page-img.jpg') no-repeat;
+    background-size: 160%;
+    background-position: center;
+
+}
+/* 
+.productpreview-products:hover{
+    margin-top: -.8rem;
+} */
 
 .productpreview-products span{
     font-size: 1.4rem;
@@ -45,5 +116,58 @@
     padding:.1rem 2rem;
     background: white;
     border-radius: .3rem;
+}
 
+.swiper-button-prev{
+    color: white !important;
+    height: 1rem !important;
+    width: 1rem !important;
+}
+
+.swiper-button-next{
+    color: white !important;
+    height: 1rem !important;
+    width: 1rem !important;
+    font-size: 1rem !important;
+}
+
+@media screen and (max-width: 840px) {
+    .productpreview{
+        padding: 6rem 7%;
+    }
+    
+    .productpreview h2{
+        font-size: 4.5rem ;
+        text-align: center;
+        margin-bottom: 1.4rem;
+    }
+    
+    .productpreview p{
+        font-size: 2.5rem ;
+        text-align: center;
+        width: 70%;
+        margin: 0 auto;
+        margin-bottom: 7rem;
+    }
+    
+    .productpreview-products{
+        height: 45rem;
+        width: 40%;
+        padding: 3rem 0;
+        display: flex;
+        align-items: flex-end;
+        justify-content: center;
+        /* margin-top: 7rem; */
+        transition: all .5s;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .swiper-button-prev{
+        display: none !important;
+    }
+    
+    .swiper-button-next{
+        display: none !important;
+    }
 }
