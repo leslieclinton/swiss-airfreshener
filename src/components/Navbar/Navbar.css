@@ -215,3 +215,37 @@
     }
     
 }
+
+
+@media screen and (min-width: 740px){
+    .mobile__nav{
+        padding: 0 5%;
+        height: 10rem;
+    }
+
+    .mobile__nav-logo img{
+       height: 7rem; 
+    }
+
+    .nav-ham-item{
+        height: 1rem;
+        width: 1rem;
+        background: black;
+        border-radius: 5rem;
+    }
+
+    .mobile__nav-links li {
+        font-size: 3.5rem;
+        color: black;
+        font-weight: 800;
+    }
+
+    .mobile__nav-links li:not(:last-child) {
+        margin-bottom: 4rem;
+    }
+
+    .mobile__nav-links-container{
+        top: 14.2rem;
+    }
+    
+}
