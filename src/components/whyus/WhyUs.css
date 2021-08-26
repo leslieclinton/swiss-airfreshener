@@ -1,0 +1,145 @@
+.whyus__container{
+    /* height: 50rem; */
+    width: 100%;
+    display: flex;
+    /* grid-template-columns: repeat(3, 1fr); */
+    align-items: center;
+    justify-content: center;
+    gap:3.6rem;
+    padding: 10rem 10%;
+}
+
+
+.whyus__card{
+    background: white;
+    height: 25rem;
+    width: 31.6rem;
+    box-shadow: 0px 4px 112px rgba(0, 0, 0, 0.06);
+    border-radius: 8px;
+    text-align: center;
+    padding: 2rem  ;
+}
+
+.whyus__card-icon{
+    width: 7rem;
+    height: 7rem;
+    border-radius: 7rem;
+    margin: 0 auto;
+    margin-bottom: 2.2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.whyus__card-1 .whyus__card-icon{
+    background: #E5F0FF;
+}
+
+.whyus__card-2 .whyus__card-icon{
+    background: #F9F9F0;
+}
+
+.whyus__card-3 .whyus__card-icon{
+    background: #DAFFF0;
+}
+
+.whyus__card h3{
+    font-size: 1.8rem;
+    font-weight: 700;
+    margin-bottom: 1.2rem;
+}
+
+.whyus__card p{
+    font-size: 1.5rem;
+    color: #595959;
+}
+
+
+@media screen and (max-width: 840px) {
+    .whyus__container{
+        width: 100%;
+        flex-direction: column;
+        padding: 10rem 7%;
+    }
+    
+    .whyus__card{
+        background: white;
+        height: auto;
+        width: auto;
+        padding: 6rem;
+    }
+
+    .whyus__card-icon{
+        width: 10rem;
+        height: 10rem;
+    }
+
+    .whyus__card h3{
+        font-size: 3.5rem;
+        font-weight: 700;
+        margin-bottom: 1.2rem;
+    }
+    
+    
+    .whyus__card p{
+        font-size: 3rem;
+        color: #595959;
+    }
+    
+}
+
+
+@media screen and (max-width: 640px) {
+    .whyus__container{
+        gap:3rem;
+        padding: 4rem 8%;
+    }
+    
+    
+    .whyus__card{
+        background: white;
+        height: auto;
+        width: auto;
+        padding: 6rem;
+        box-shadow: 0px 4px 112px rgba(0, 0, 0, 0.08);
+        border-radius: 8px;
+        text-align: center;
+        padding: 2rem  ;
+    }
+    
+    .whyus__card-icon{
+        width: 7rem;
+        height: 7rem;
+        border-radius: 7rem;
+        margin: 0 auto;
+        margin-bottom: 2.2rem;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .whyus__card-1 .whyus__card-icon{
+        background: #E5F0FF;
+    }
+    
+    .whyus__card-2 .whyus__card-icon{
+        background: #F9F9F0;
+    }
+    
+    .whyus__card-3 .whyus__card-icon{
+        background: #DAFFF0;
+    }
+    
+    .whyus__card h3{
+        font-size: 1.8rem;
+        font-weight: 700;
+        margin-bottom: 1.2rem;
+    }
+    
+    .whyus__card p{
+        font-size: 1.5rem;
+        color: #595959;
+    }
+    
+    
+}
