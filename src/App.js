@@ -5,6 +5,9 @@ import Navbar from './components/Navbar/Navbar';
 import Topbar from './components/topBar/Topbar';
 import HomePage from './pages/homePage/HomePage';
 
+// import "swiper/css/bundle";
+
+
 function App() {
   return (
     
