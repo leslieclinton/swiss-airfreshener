@@ -1,4 +1,4 @@
-import React, {useState, useEffect} from 'react';
+import React from 'react';
 import {Link} from 'react-router-dom';
 import { Swiper, SwiperSlide } from 'swiper/react';
 import SwiperCore, { Navigation } from 'swiper';  
@@ -16,17 +16,7 @@ import 'swiper/components/navigation/navigation.scss';
 function ProductPreview() {
     SwiperCore.use([Navigation]);
 
-
-    const [resize,  setResize] = useState('desktop');
-
-    useEffect(()=>{
-
-
-    }, [])
-
-
     return (
-
         <div className="productpreview">
             <h2>Swiss flower products</h2>
             <p>We offer a range of Air Fresheners, and a wide choice of different  fragrances specifically aimed at freshening your world.</p>
@@ -37,17 +27,31 @@ function ProductPreview() {
                 // when window width is >= 640px
                 300: {
                   width: 300,
-                  slidesPerView: 1.2,
+                  slidesPerView: 1.05,
                   navigation :"false"
+                },
+                // when window width is >= 640px
+                640: {
+                  width: 640,
+                  slidesPerView: 2,
                 },
                 // when window width is >= 768px
                 748: {
-                  width: 740,
+                  width: 748,
                   slidesPerView: 2,
+                },
+                // when window width is >= 1200px
+                1200: {
+                  width: 1200,
+                  slidesPerView: 4,
+                },
+                1300: {
+                  width: 1300,
+                  slidesPerView: 4,
                 },
               }}
             modules={[Navigation]}
-            spaceBetween={20}
+            spaceBetween={10}
             slidesPerView={4}
             onSlideChange={() => console.log('slide change')}
             onSwiper={(swiper) => console.log(swiper)}

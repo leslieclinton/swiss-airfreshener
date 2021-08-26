@@ -21,7 +21,7 @@
 
 .productpreview-products{
     height: 45rem;
-    width: 34rem;
+    width: auto;
     padding: 3rem 0;
     display: flex;
     align-items: flex-end;
@@ -32,7 +32,7 @@
 
 .productpreview-images-1{
     background: url('../../assets/Images/swiss-regular-page-img.jpg') no-repeat;
-    background-size: 150%;
+    background-size: cover;
     background-position: center;
     transition: all .5s;
     /* background: coral; */
@@ -40,27 +40,27 @@
 
 .productpreview-images-1:hover{
     background: url('../../assets/Images/swiss-regular-page-img.jpg') no-repeat;
-    background-size: 160%;
+    background-size: cover;
     background-position: center;
 }
 
 .productpreview-images-2{
     background: url('../../assets/Images/swiss-regular-page-img.jpg') no-repeat;
-    background-size: 150%;
+    background-size: cover;
     background-position: center;
     transition: all .5s;
 }
 
 .productpreview-images-2:hover{
     background: url('../../assets/Images/swiss-regular-page-img.jpg') no-repeat;
-    background-size: 160%;
+    background-size: cover;
     background-position: center;
 
 }
 
 .productpreview-images-3{
     background: url('../../assets/Images/swiss-card-page-img.jpg') no-repeat;
-    background-size: 150%;
+    background-size: cover;
     background-position: center;
     transition: all .5s;
 
@@ -68,42 +68,40 @@
 
 .productpreview-images-3:hover{
     background: url('../../assets/Images/swiss-card-page-img.jpg') no-repeat;
-    background-size: 160%;
+    background-size: cover;
     background-position: center;
 
 }
 
 .productpreview-images-4{
     background: url('../../assets/Images/swiss-scentpad-page-img.jpg') no-repeat;
-    background-size: 150%;
+    background-size: 180%;
     background-position: center;
     background-position: 55%;
     transition: all .5s;
 
 }
-
+/* 
 .productpreview-images-4:hover{
     background: url('../../assets/Images/swiss-scentpad-page-img.jpg') no-repeat;
-    background-size: 160%;
-    background-position: center;
+    background-size: 180%;
 
-}
+} */
 
 .productpreview-images-5{
     background: url('../../assets/Images/swiss-scentpad-page-img.jpg') no-repeat;
-    background-size: 150%;
+    background-size: 170%;
     background-position: center;
     background-position: 55%;
     transition: all .5s;
 
 }
-
+/* 
 .productpreview-images-5:hover{
     background: url('../../assets/Images/swiss-scentpad-page-img.jpg') no-repeat;
-    background-size: 160%;
-    background-position: center;
+    background-size: 180%;
 
-}
+} */
 /* 
 .productpreview-products:hover{
     margin-top: -.8rem;
@@ -152,7 +150,7 @@
     
     .productpreview-products{
         height: 45rem;
-        width: 40%;
+        width: auto;
         padding: 3rem 0;
         display: flex;
         align-items: flex-end;
@@ -162,7 +160,42 @@
     }
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 640px) {
+    .productpreview{
+        /* height: 60rem; */
+        width: 100%;
+        background: #F6FAFF;
+        padding: 4rem 5%;
+    }
+    
+    .productpreview h2{
+        font-size: 2.5rem ;
+        margin-bottom: 1.4rem;
+    }
+    
+    .productpreview p{
+        font-size: 1.5rem ;
+        width: 90%;
+        margin-bottom: 5rem;
+    }
+
+    .productpreview-images{
+        border-radius: .7rem;
+
+    }
+    
+    .productpreview-products{
+        height: 45rem;
+        width: auto;
+        padding: 3rem 0;
+        display: flex;
+        align-items: flex-end;
+        justify-content: center;
+        /* margin-top: 7rem; */
+        transition: all .5s;
+
+    }
+    
     .swiper-button-prev{
         display: none !important;
     }
@@ -171,3 +204,37 @@
         display: none !important;
     }
 }
+
+
+
+
+
+
+
+
+
+
+
+  
+  @media screen and (min-width: 300px) {
+    .swiper-container {
+      width:100%;
+    }
+  }
+  
+  @media screen and (min-width: 640px) {
+    .swiper-container {
+      width:100%;
+    }
+  }
+  @media screen and (min-width: 748px) {
+    .swiper-container {
+      width: 100%;
+    }
+  }
+  
+  @media screen and (min-width: 1200px) {
+    .swiper-container {
+      width: 100%
+    }
+  }
