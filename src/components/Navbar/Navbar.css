@@ -135,12 +135,6 @@
 
     }
 
-/* .mobile__nav-hamburger-close{
-    display: grid;
-        grid-template-columns: repeat(2, 1fr);
-        gap: 1rem
-} */
-
     .nav-ham-item{
         height: .6rem;
         width: .6rem;
@@ -152,7 +146,7 @@
         height: 80vh;
         width: 100%;
         background: linear-gradient(158.07deg, #DAFFF0 0.79%, rgba(255, 225, 225, 0.99) 96.45%);
-        position: absolute;
+        position: fixed;
         top: 12.2rem;
         left: 0;
         padding: 5rem 12%;
@@ -160,6 +154,7 @@
         align-items: left;
         justify-content: space-between;
         flex-direction: column;
+        z-index: 999999999;
 
     }
 
