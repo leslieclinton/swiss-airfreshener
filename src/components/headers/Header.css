@@ -1,0 +1,14 @@
+
+.m__header-container{
+    display: none;
+}
+
+@media screen and (max-width: 840px){
+    .d__header-container{
+        display: none;
+    }
+    .m__header-container{
+        display: block;
+    }
+}
+
