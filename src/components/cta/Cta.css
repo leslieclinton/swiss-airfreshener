@@ -1,0 +1,221 @@
+.cta__container{
+    height: 60rem;
+    width: 100%;
+    /* background: black; */
+    padding: 4rem 10% 8rem 10%;
+}
+
+.cta{
+    height: 37rem;
+    width: 100%;
+    background: linear-gradient(253.23deg, #DAFFF0 38.42%, #B9FFFF 68.89%);
+    border-radius: 1rem;
+    padding: 0 5%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 4rem
+}
+
+.cta__image{
+    height: 100%;
+    width: 40%;
+    background: url('../../assets/Images/Lady-cta.png') no-repeat;
+    background-position: center;
+    background-size: 145%;
+}
+
+.cta__content {
+    width: 60%;
+    padding: 5%;
+}
+
+.cta__content h2{
+    font-size: 2.8rem;
+    margin-bottom: 1rem;
+}
+
+.cta__content p{
+    font-size: 1.6rem;
+    line-height: 2.6rem;
+    width: 80%;
+    margin-bottom: 4.5rem;
+}
+
+.cta_btn-container{
+    display: flex;
+    align-items: center;
+    /* justify-content: center; */
+    gap: 2rem
+}
+
+.cta_btn-container a{
+    color: white;
+    font-size: 1.6rem;
+    font-weight: bold;
+}
+
+.cta_btn-container span{
+    display: inline-block;
+    padding: 2rem ;
+    /* background: red; */
+    
+}
+.cta_btn-1{
+    background: #269868;
+    transition: all .3s;
+}
+
+.cta_btn-1:hover{
+    background: #067144;
+}
+
+.cta_btn-2{
+    background: #fff;
+    color: black !important;
+    transition: all .3s;
+}
+
+.cta_btn-2:hover{
+    background: rgba(255, 255, 255, 0.646);
+    color: black !important;
+}
+
+
+
+
+@media screen and (max-width: 840px) {
+    .cta__container{
+        height: auto;
+        width: 100%;
+        /* background: black; */
+        padding: 4rem 7% 8rem 7%;
+    }
+    
+    .cta{
+        height: 100%;
+        width: 100%;
+        padding: 0 5%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 0;
+        flex-direction: column;
+    }
+    
+    .cta__image{
+        height: 60rem;
+        width: 60rem;
+        background-size: 200%;
+        order: 1;
+    }
+    
+    .cta__content {
+        width: 100%;
+        padding:8% 5%;
+        order: 0;
+        text-align: center;
+    }
+    
+    .cta__content h2{
+        font-size: 3.5rem;
+        margin-bottom: 1rem;
+    }
+    
+    .cta__content p{
+        font-size: 2.8rem;
+        line-height: 4rem;
+        width: 100%;
+        margin-bottom: 7rem;
+    }
+    
+    .cta_btn-container{
+        display: flex;
+        align-items: center;
+        gap: 4rem;
+        justify-content: center;
+        flex-direction: column;
+    }
+    
+    .cta_btn-container a{
+        color: white;
+        font-size: 2.5rem;
+        font-weight: bold;
+    }
+    
+    .cta_btn-container span{
+        display: inline-block;
+        padding: 3rem 5rem;
+        
+    }
+
+
+    
+}
+
+@media screen and (max-width: 640px) {
+    .cta__container{
+        height: auto;
+        width: 100%;
+        /* background: black; */
+        padding: 0 0% 8rem 0;
+    }
+    
+    .cta{
+        height: 100%;
+        width: 100%;
+        padding: 0 5%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 0;
+        flex-direction: column;
+    }
+    
+    .cta__image{
+        height: 40rem;
+        width: 40rem;
+        background-size: 180%;
+ 
+    }
+    
+    .cta__content {
+        width: 100%;
+        padding:6rem 3.5% 0 3.5%;
+
+    }
+    
+    .cta__content h2{
+        font-size: 2.5rem;
+        margin-bottom: 1.5rem;
+    }
+    
+    .cta__content p{
+        font-size: 1.7rem;
+        line-height: 2.5rem;
+        width: 100%;
+        margin-bottom: 4rem;
+    }
+    
+    .cta_btn-container{
+        display: flex;
+        align-items: center;
+        gap: 2rem;
+        justify-content: center;
+        flex-direction: column;
+    }
+    
+    .cta_btn-container a{
+        color: white;
+        font-size: 1.7rem;
+        font-weight: bold;
+    }
+    
+    .cta_btn-container span{
+        display: inline-block;
+        padding: 2rem 5rem;
+        
+    }
+
+
+}
