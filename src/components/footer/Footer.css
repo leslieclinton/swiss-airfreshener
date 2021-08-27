@@ -137,3 +137,196 @@
     border-radius: .5rem;
     display: inline-block;
 }
+
+
+@media screen and (max-width: 840px) {
+    
+    .footer_main{
+        display: block;
+    }
+    
+    .footer__company-info{
+        width: 100%;
+        height: 100%;
+        /* background: red; */
+        padding: 4rem 6% 8rem 6%;
+        border-bottom: 1px solid rgb(182, 182, 182);
+    }
+    
+    .footer__company-img{
+        height: 10rem;
+        width: 20rem;
+        margin-bottom: 4rem;
+    }
+    
+    .footer__company-address{
+        margin-bottom: 4rem;
+        width: 90%;
+    }
+    
+    .footer__company-address h3{
+        font-size: 2.5rem;
+        font-weight: 500;
+        width: 80%;
+
+    }
+    
+    .footer__comapny-contact p{
+       margin-right: 2rem;
+       font-size: 2.5rem;
+       font-weight: 700;
+    }
+    
+    .footer__links{
+        width: 100%;
+        height: 100%;
+        padding: 8rem 6% 8rem 6%;
+        display: flex;
+        justify-content: space-between;
+        gap: 4rem;
+        border-bottom: 1px solid rgb(182, 182, 182);
+
+    }
+    
+    .footer__links h3{
+        font-size: 2.5rem;
+        margin-bottom: 1.8rem;
+    }
+    
+    .footer__links ul li{
+        font-size: 2.5rem;
+        margin-bottom: 1.3rem;
+        font-weight: 600;
+    }
+    
+    
+    .footer__social{
+        width: 20%;
+        height: 100%;
+        display: flex;
+        padding: 8rem 6% 8rem 6%;
+        justify-content: right;
+        
+    }
+    
+    .footer__social  span a{
+        height: 6rem;
+        width: 6rem;
+        border-radius: 5rem;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-right: 1.5rem;
+        transition: all .3s;
+    }
+ 
+    
+    .footer__ref{
+        height: 7.8rem;
+        margin-top: 2rem;
+    }
+    
+    .footer__ref{
+        padding: 0 6%;
+        font-size: 2.3rem;
+    }
+    
+    .footer__ref-xpato{
+        font-size: 2.3rem;
+        padding: .2rem 1rem;
+        border-radius: .5rem;
+        display: inline-block;
+    }
+    
+}
+
+
+@media screen and (max-width: 640px) {
+    .footer_main{
+        display: block;
+    }
+    
+    .footer__company-info{
+        width: 100%;
+        height: 100%;
+        /* background: red; */
+        padding: 4rem 6% 4rem 6%;
+        border-bottom: 1px solid rgb(182, 182, 182);
+    }
+    
+    .footer__company-img{
+        height: 6rem;
+        width: 14.1rem;
+        margin-bottom: 2rem;
+    }
+    
+    .footer__company-address{
+        margin-bottom: 4rem;
+        width: 90%;
+    }
+    
+    .footer__company-address h3{
+        font-size: 1.7rem;
+        font-weight: 500;
+        width: 80%;
+
+    }
+    
+    .footer__comapny-contact {
+      display: block;
+    }
+    
+    .footer__comapny-contact p{
+       margin-right: 2rem;
+       font-size: 1.7rem;
+       font-weight: 700;
+       margin-bottom: 1rem;
+    }
+    
+    .footer__links{
+        width: 100%;
+        height: 100%;
+        padding: 4rem 6%;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        justify-content: space-between;
+        gap: 4rem;
+        border-bottom: 1px solid rgb(182, 182, 182);
+
+    }
+    
+    .footer__links h3{
+        font-size: 1.6rem;
+        margin-bottom: 1.8rem;
+    }
+ 
+    .footer__links ul li{
+        font-size: 1.6rem;
+        margin-bottom: 1.3rem;
+    }
+
+    .footer__social{
+        width: 20%;
+        padding: 4rem 6%;
+    }
+    
+    .footer__social  span a{
+        height: 4rem;
+        width: 4rem;
+    }
+
+    
+    .footer__ref{
+        height: 6rem;
+        margin-top: 1rem;
+    }
+    
+    .footer__ref{
+        font-size: 1.4rem;
+    }
+    
+    .footer__ref-xpato{
+        font-size: 1.4rem;
+
+    }
+}
