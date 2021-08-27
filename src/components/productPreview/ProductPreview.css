@@ -2,7 +2,7 @@
     /* height: 60rem; */
     width: 100%;
     background: #F6FAFF;
-    padding: 4rem 5%;
+    padding: 4rem 5% 8rem 5%;
 }
 
 .productpreview h2{
@@ -40,14 +40,14 @@
     background-size: cover;
     background-position: center;
     transition: all .5s;
-    /* background: coral; */
+    background: coral;
 }
 
-.productpreview-images-1:hover{
+/* .productpreview-images-1:hover{
     background: url('../../assets/Images/swiss-regular-page-img.jpg') no-repeat;
     background-size: cover;
     background-position: center;
-}
+} */
 
 .productpreview-images-2{
     background: url('../../assets/Images/swiss-regular-page-img.jpg') no-repeat;
@@ -99,6 +99,7 @@
     background-position: center;
     background-position: 55%;
     transition: all .5s;
+    background: rgb(219, 182, 255);
 
 }
 /* 

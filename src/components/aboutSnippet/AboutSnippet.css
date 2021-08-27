@@ -1,0 +1,200 @@
+.aboutsnippet__container{
+    height: 60rem;
+    width: 100%;
+    background: white;
+    padding: 8% 7% 5% 7%;
+}
+
+.aboutsnippet{
+    height: 100%;
+    width: 100%;
+    background: linear-gradient(282.65deg, #F0F4F9 37.75%, #E5DFFF 142.98%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.aboutsnippet__content{
+    height: 100%;
+    width: 50%;
+    /* background: rebeccapurple; */
+    padding: 5% 2% 5% 5%;
+}
+
+.aboutsnippet__content h2{
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+}
+
+.aboutsnippet__content p{
+    font-size: 1.5rem;
+    margin-bottom: 5rem;
+    line-height: 2.8rem;
+}
+
+.aboutsnippet__content span{
+    padding: 2rem 5rem;
+    background: #8556C0;
+    color: white;
+    font-size: 1.6rem;
+    font-weight: bold;
+    border-radius: 5rem;
+    transition: all .3s;
+}
+
+.aboutsnippet__content span:hover{
+    background: rgb(178, 129, 228);
+}
+
+.aboutsnippet__image{
+    height: 100%;
+    width: 50%;
+    background: url('../../assets/Images/flower.jpg') no-repeat;
+    background-size: cover;
+    margin: 5% 8%;
+    margin-top: -1px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+@media screen and (max-width: 840px) {
+    .aboutsnippet__container{
+        height: auto;
+        width: 100%;
+        background: white;
+        padding: 8rem 7% 8rem 7%;
+    }
+    
+    .aboutsnippet{
+        height: 100%;
+        width: 100%;
+        background: linear-gradient(282.65deg, #F0F4F9 37.75%, #E5DFFF 142.98%);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        padding: 8rem 0 5rem 0 ;
+    }
+    
+    .aboutsnippet__content{
+        height: 100%;
+        width: 100%;
+        /* background: rebeccapurple; */
+        padding: 7%;
+        order: 1
+    }
+    
+    .aboutsnippet__content h2{
+        font-size: 3.5rem;
+        margin-bottom: 1rem;
+        text-align: center;
+    }
+    
+    .aboutsnippet__content p{
+        font-size: 2.5rem;
+        margin-bottom: 5rem;
+        line-height: 4.5rem;
+        text-align: center;
+
+    }
+    
+    .aboutsnippet__content span{
+        padding: 3.5rem 8rem;
+        background: #8556C0;
+        color: white;
+        font-size: 1.6rem;
+        border-radius: 10rem;
+        margin: 0 auto;
+        width: 60%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 2.5rem;
+    }
+    
+    .aboutsnippet__image{
+        height: 50rem;
+        width: 80%;
+        background: url('../../assets/Images/flower.jpg') no-repeat;
+        background-size: cover;
+        margin: 5% 8%;
+        margin-top: -1px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        order:  0;
+        
+    }
+}
+
+@media screen and (max-width: 640px) {
+    .aboutsnippet__container{
+        height: auto;
+        width: 100%;
+        background: white;
+        padding: 0;
+        margin-top: 5rem;
+    }
+    
+    .aboutsnippet{
+        height: 100%;
+        width: 100%;
+        background: linear-gradient(282.65deg, #F0F4F9 37.75%, #E5DFFF 142.98%);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        padding: 4rem 0 5rem 0 ;
+    }
+    
+    .aboutsnippet__content{
+        height: 100%;
+        width: 100%;
+        /* background: rebeccapurple; */
+        padding: 7%;
+        order: 1
+    }
+    
+    .aboutsnippet__content h2{
+        font-size: 2.5rem;
+        margin-bottom: 2rem;
+        text-align: center;
+    }
+    
+    .aboutsnippet__content p{
+        font-size: 1.6rem;
+        margin-bottom: 5rem;
+        line-height: 2.8rem;
+        text-align: center;
+
+    }
+    
+    .aboutsnippet__content span{
+        padding: 2.5rem 8rem;
+        background: #8556C0;
+        color: white;
+        border-radius: 10rem;
+        margin: 0 auto;
+        width: 80%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 1.8rem;
+    }
+    
+    .aboutsnippet__image{
+        height: 30rem;
+        width: 90%;
+        background: url('../../assets/Images/flower.jpg') no-repeat;
+        background-size: cover;
+        margin:0;
+        margin-top: -1px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        order:  0;
+        
+    }
+}
