@@ -30,6 +30,11 @@
     transition: all .5s;
 }
 
+.productpreview-images:hover{
+    transform: translateY(-1rem);
+
+}
+
 .productpreview-images-1{
     background: url('../../assets/Images/swiss-regular-page-img.jpg') no-repeat;
     background-size: cover;

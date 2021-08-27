@@ -70,6 +70,7 @@
     margin-right: 2rem;
     cursor: pointer;
     transition: all .3s;
+    border-radius: 5rem;
 }
 
 .nav-buy-btn:hover{
@@ -90,7 +91,7 @@
     padding: 0 3rem;
     cursor: pointer;
     transition: all .3s;
-
+    border-radius: 5rem;
 }
 
 .nav-blog-btn:hover{
