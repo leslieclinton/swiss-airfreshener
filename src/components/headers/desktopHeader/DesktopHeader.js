@@ -3,6 +3,7 @@ import './DesktopHeader.css';
 import "slick-carousel/slick/slick.css"; 
 import "slick-carousel/slick/slick-theme.css";
 import SlickSlider from "react-slick";
+import {Link} from 'react-router-dom'
 
 
 function DesktopHeader() {
@@ -29,9 +30,11 @@ function DesktopHeader() {
                     <h1>Regular & Refil</h1>
                     <p>Simple ingredients with stellar results.  in-house garment care line is tried.Simple ingredients with stellar </p>
 
-                    <div className="d__header-btn">
-                        Explore
-                    </div>
+                   <Link to='/regular'>
+                        <div className="d__header-btn">
+                            Explore
+                        </div>
+                    </Link>
                 </div>
             </div>
             <div className="desktop__header d__slide-2">
@@ -40,9 +43,11 @@ function DesktopHeader() {
                     <h1>Scent Pad</h1>
                     <p>Simple ingredients with stellar results.  in-house garment care line is tried.Simple ingredients with stellar </p>
 
-                    <div className="d__header-btn">
-                        Explore
-                    </div>
+                    <Link to='/scentpad'>
+                        <div className="d__header-btn">
+                            Explore
+                        </div>
+                    </Link>
                 </div>
             </div>
             </SlickSlider>

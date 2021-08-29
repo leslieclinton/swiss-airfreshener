@@ -1,0 +1,117 @@
+.card__jumbotron-container{
+    padding: 8rem 10% 0 10%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.card__jumbotron{
+    height: 30rem;
+    width: 100%;
+    background: black;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding-left: 15%;
+    background: linear-gradient(rgba(0, 0, 0, 0.408), rgba(0, 0, 0, 0.381)), url('../../assets/Images/car-bg.jpg') no-repeat;
+    background-size: cover;
+}
+
+.card__jumbotron h2{
+    color: white;
+    font-size: 3.5rem;
+    line-height: 3.5rem;
+    margin-bottom: 1.5rem;
+}
+
+.card__jumbotron p{
+    color: white;
+    font-size: 1.8rem;
+}
+
+.card__photos-images{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 2rem;
+    padding: auto 10%;
+    padding:0 10%;
+    
+}
+
+.card__photo{
+    height: 30rem;
+    width: auto;
+    background: #e9edf0dc ;
+}
+
+.card__photo img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    transform: scale(115%);
+}
+
+@media screen and (max-width:840px) {
+    .card__jumbotron-container{
+        padding: 8rem 6% 0 6%;
+    }
+
+    .card__jumbotron p{
+        font-size: 2.5rem;
+    }
+    
+    .card__photos-images{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 2rem;
+        padding: auto 10%;
+        padding:0 6%;
+        
+    }
+    
+    .card__photo{
+        height: 40rem;
+        width: auto;
+    }
+    
+
+}
+
+@media screen and (max-width:640px) {
+
+    .card__jumbotron{
+        height: 30rem;
+        width: 100%;
+        background: black;
+        display: flex;
+        justify-content: flex-end;
+        flex-direction: column;
+        padding: 5%;
+        background: linear-gradient(rgba(0, 0, 0, 0.408), rgba(0, 0, 0, 0.381)), url('../../assets/Images/car-bg-mobile.jpg') no-repeat;
+        background-size: cover;
+    }
+    
+    .card__jumbotron-container{
+        padding: 4rem 6% 0 6%;
+    }
+
+    .card__jumbotron p{
+        font-size: 1.6rem;
+    }
+    
+    .card__photos-images{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 2rem;
+        padding: auto 5%;
+        padding:0 6%;
+        
+    }
+    
+    .card__photo{
+        height: 20rem;
+        width: auto;
+    }
+    
+
+}

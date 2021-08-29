@@ -12,8 +12,8 @@ function Cta() {
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quis faucibus eleifend augue id </p>
 
                     <div className="cta_btn-container">
-                        <Link to = '/'><span className="cta_btn-1" >Buy Swiss products</span></Link>
-                        <Link to = '/'><span className="cta_btn-2" >Become a distibutor</span></Link>
+                        <Link to = '/shop'><span className="cta_btn-1" >Buy Swiss products</span></Link>
+                        <Link to = '/distributors'><span className="cta_btn-2" >Become a distibutor</span></Link>
                     </div>
                 </div>
             </div>

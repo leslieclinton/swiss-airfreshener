@@ -3,6 +3,8 @@ import './MobileHeader.css';
 import "slick-carousel/slick/slick.css"; 
 import "slick-carousel/slick/slick-theme.css";
 import SlickSlider from "react-slick";
+import {Link} from 'react-router-dom'
+
 
 
 function MobileHeader() {
@@ -31,9 +33,11 @@ function MobileHeader() {
                         <h1>Scent Pad</h1>
                         <p>Simple ingredients with stellar results.  in-house garment care line is tried.Simple ingredients with stellar </p>
 
-                        <div className="m__header-btn">
-                            Explore
-                        </div>
+                        <Link to='/scentpad'>
+                            <div className="d__header-btn">
+                                Explore
+                            </div>
+                        </Link>
 
                         </div>
                 </div>
@@ -46,9 +50,11 @@ function MobileHeader() {
                         <h1>Regular & Refil</h1>
                         <p>Simple ingredients with stellar results.  in-house garment care line is tried.Simple ingredients with stellar </p>
 
-                        <div className="m__header-btn">
-                            Explore
-                        </div>
+                        <Link to='/regular'>
+                            <div className="d__header-btn">
+                                Explore
+                            </div>
+                        </Link>
 
                         </div>
                 </div>

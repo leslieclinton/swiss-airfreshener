@@ -1,0 +1,87 @@
+
+.scent__photos-images{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 5rem;
+    padding: auto 10%;
+    padding:0 10%;
+    
+}
+
+.scent__photo{
+    height: 30rem;
+    width: auto;
+    background: #e9edf0dc ;
+}
+
+.scent__photo img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    transform: scale(115%);
+}
+
+@media screen and (max-width:840px) {
+    .scent__jumbotron-container{
+        padding: 8rem 6% 0 6%;
+    }
+
+    .scent__jumbotron p{
+        font-size: 2.5rem;
+    }
+    
+    .scent__photos-images{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 2rem;
+        padding: auto 10%;
+        padding:0 6%;
+        
+    }
+    
+    .scent__photo{
+        height: 40rem;
+        width: auto;
+    }
+    
+
+}
+
+@media screen and (max-width:640px) {
+
+    .scent__jumbotron{
+        height: 30rem;
+        width: 100%;
+        background: black;
+        display: flex;
+        justify-content: flex-end;
+        flex-direction: column;
+        padding: 5%;
+        background: linear-gradient(rgba(0, 0, 0, 0.408), rgba(0, 0, 0, 0.381)), url('../../assets/Images/car-bg-mobile.jpg') no-repeat;
+        background-size: cover;
+    }
+    
+    .scent__jumbotron-container{
+        padding: 4rem 6% 0 6%;
+    }
+
+    .scent__jumbotron p{
+        font-size: 1.6rem;
+    }
+    
+    .scent__photos-images{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 2rem;
+        padding: auto 5%;
+        padding:0 6%;
+        
+    }
+    
+    .scent__photo{
+        height: 20rem;
+        width: auto;
+    }
+    
+
+}

@@ -56,7 +56,11 @@
     font-size: 1.8rem;
     border-radius: 5rem;
     transition: all .3s;
+    font-weight: bolder;
     cursor: pointer;
+}
+a .d__header-btn {
+    color: white
 }
 
 .d__header-btn:hover {

@@ -59,7 +59,7 @@ function ProductPreview() {
             pagination={{ clickable: true }}
             >
             <SwiperSlide>
-                <Link to='/'>
+                <Link to='/liquid'>
                     <div className="productpreview-images productpreview-images-1">
                         <div className="productpreview-products">
                             <span>Liquid</span>
@@ -68,7 +68,7 @@ function ProductPreview() {
                 </Link> 
             </SwiperSlide>
             <SwiperSlide>
-                <Link to='/'>
+                <Link to='/regular'>
                     <div className="productpreview-images productpreview-images-2">
                         <div className="productpreview-products">
                             <span>Regular & Refil</span>
@@ -77,7 +77,7 @@ function ProductPreview() {
                 </Link> 
             </SwiperSlide>
             <SwiperSlide>
-                <Link to='/'>
+                <Link to='/card'>
                     <div className="productpreview-images productpreview-images-3">
                         <div className="productpreview-products">
                             <span> Card</span>
@@ -86,7 +86,7 @@ function ProductPreview() {
                 </Link> 
             </SwiperSlide>
             <SwiperSlide>
-                <Link to='/'>
+                <Link to='/scentpad'>
                     <div className="productpreview-images productpreview-images-4">
                         <div className="productpreview-products">
                             <span>Scent Pad</span>
@@ -95,7 +95,7 @@ function ProductPreview() {
                 </Link> 
             </SwiperSlide>
             <SwiperSlide>
-                <Link to='/'>
+                <Link to='/gel'>
                     <div className="productpreview-images productpreview-images-5">
                         <div className="productpreview-products">
                             <span>Gel</span>

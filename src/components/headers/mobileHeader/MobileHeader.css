@@ -82,6 +82,10 @@
     font-weight: bolder;
 }
 
+a .m__header-btn {
+    color: white
+}
+
 .m__header-btn:hover {
     background: #ffffff40
 

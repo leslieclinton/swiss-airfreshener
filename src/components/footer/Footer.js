@@ -23,27 +23,27 @@ function Footer() {
                         <h3>Quick Links</h3>
                         <ul>
                             <li><Link to='/'>Home</Link></li>
-                            <li><Link to='/'>About</Link></li>
-                            <li><Link to='/'>Contact</Link></li>
-                            <li><Link to='/'>Distributorship</Link></li>
-                            <li><Link to='/'>Buy products</Link></li>
+                            <li><Link to='/about'>About</Link></li>
+                            <li><Link to='/contact'>Contact</Link></li>
+                            <li><Link to='/distributors'>Distributorship</Link></li>
+                            <li><Link to='/shop'>Buy products</Link></li>
                         </ul>
                     </div>
                     <div className="footer__links-products">
                         <h3>Products</h3>
                         <ul>
-                            <li><Link to='/'>Liquid</Link></li>
-                            <li><Link to='/'>Gel</Link></li>
-                            <li><Link to='/'>Regular & Refil</Link></li>
-                            <li><Link to='/'>Card</Link></li>
-                            <li><Link to='/'>Scent pad</Link></li>
+                            <li><Link to='/liquid'>Liquid</Link></li>
+                            <li><Link to='/gel'>Gel</Link></li>
+                            <li><Link to='/regular'>Regular & Refil</Link></li>
+                            <li><Link to='/card'>Card</Link></li>
+                            <li><Link to='/scentpad'>Scent pad</Link></li>
                         </ul>
                     </div>
                     <div className="footer__links-legal">
                         <h3>Legal</h3>
                         <ul>
-                            <li><Link to='/'>Privacy</Link></li>
-                            <li><Link to='/'>Terms and Conditions</Link></li>
+                            <li><Link to='/privacy'>Privacy</Link></li>
+                            <li><Link to='/terms'>Terms and Conditions</Link></li>
                         </ul>
                     </div>
                 </div>

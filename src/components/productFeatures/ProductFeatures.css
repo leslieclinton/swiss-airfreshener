@@ -140,7 +140,7 @@
 
 @media screen and (max-width: 640px) {
     .p__features-container{
-        height: 95rem;
+        height: 90rem;
         width: 100%;
         background: #F0F4F9;
         display: flex;
