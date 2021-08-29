@@ -116,7 +116,7 @@
 }
 
 .footer__ref{
-    background: #e5ebf1;
+    background: #343239;
     height: 7.8rem;
     width: 100%;
     margin-top: 2rem;
@@ -128,14 +128,16 @@
     justify-content: space-between;
     padding: 0 6%;
     font-size: 1.5rem;
+    color:rgb(198, 198, 198)
 }
 
 .footer__ref-xpato{
     font-size: 1.5rem;
-    background: white;
+    background: rgba(255, 255, 255, 0.136);
     padding: .2rem 1rem;
     border-radius: .5rem;
     display: inline-block;
+    color: rgb(216, 216, 216)
 }
 
 

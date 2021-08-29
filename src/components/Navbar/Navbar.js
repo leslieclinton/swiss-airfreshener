@@ -14,18 +14,20 @@ function Navbar() {
 
     return (
         <>
-        <div className="desktop__nav">
-            <div className="desktop__nav-logo">
-                <img src={SwissLogo} alt="Swiss Logo" />
-            </div>
+            <div className="desktop__nav">
+                 <Link to='/'>
+                    <div className="desktop__nav-logo">
+                        <img src={SwissLogo} alt="Swiss Logo" />
+                    </div>
+                </Link> 
             <div className="desktop__nav-links">
                 <ul>
                     <li><Link to =''>HOME</Link></li>
                     <li><Link to =''>LIQUID</Link></li>
                     <li><Link to =''>GEL</Link></li>
-                    <li><Link to =''>REFIL & REGULAR</Link></li>
-                    <li><Link to =''>CARD</Link></li>
-                    <li><Link to =''>SCENT PAD</Link></li>
+                    <li><Link to ='/regular'>REFIL & REGULAR</Link></li>
+                    <li><Link to ='/card'>CARD</Link></li>
+                    <li><Link to ='/scentpad'>SCENT PAD</Link></li>
                 </ul>
             </div>
             <div className="desktop__nav-btns">
