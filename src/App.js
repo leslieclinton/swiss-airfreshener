@@ -9,6 +9,7 @@ import Card from './pages/card/Card';
 import HomePage from './pages/homePage/HomePage';
 import Regular from './pages/regular/Regular';
 import ScentPad from './pages/scentPad/ScentPad';
+import Shop from './pages/shop/Shop';
 
 // import "swiper/css/bundle";
 
@@ -24,6 +25,7 @@ function App() {
         <Route exact path='/regular'  component={Regular}></Route>
         <Route exact path='/scentpad'  component={ScentPad}></Route>
         <Route exact path='/card'  component={Card}></Route>
+        <Route exact path='/shop'  component={Shop}></Route>
 
       
 
