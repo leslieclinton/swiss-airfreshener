@@ -7,6 +7,7 @@ import SwiperCore, { Navigation } from 'swiper';
 import ProductFeatures from '../../components/productFeatures/ProductFeatures';
 import ProductHeader from '../../components/productHeader/ProductHeader';
 import ProductPhoto from '../../components/productPhoto/ProductPhoto';
+import Cta from '../../components/cta/Cta';
 
 
 
@@ -100,6 +101,8 @@ function Gel() {
               </Swiper>
         </div>
     </div>
+
+    <Cta/>
     </div>
     )
 }

@@ -1,4 +1,5 @@
 import React from 'react';
+import Cta from '../../components/cta/Cta';
 import ProductPreview from '../../components/productPreview/ProductPreview';
 import './About.css'
 
@@ -22,6 +23,8 @@ function About() {
             </div>
 
             <ProductPreview/>
+
+            <Cta/>
         </>
 
     )

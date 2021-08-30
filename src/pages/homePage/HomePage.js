@@ -3,6 +3,8 @@ import AboutSnippet from '../../components/aboutSnippet/AboutSnippet'
 import Header from '../../components/headers/Header'
 import ProductPreview from '../../components/productPreview/ProductPreview'
 import WhyUs from '../../components/whyus/WhyUs'
+import Cta from '../../components/cta/Cta';
+
 
 function HomePage() {
     return (
@@ -11,6 +13,7 @@ function HomePage() {
             <WhyUs/>
             <ProductPreview/>
             <AboutSnippet/>
+            <Cta/>
         </div>
     )
 }

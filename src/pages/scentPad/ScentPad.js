@@ -4,6 +4,8 @@ import './ScentPad.css';
 import ProductFeatures from '../../components/productFeatures/ProductFeatures'
 // import ProductPhoto from '../../components/productPhoto/ProductPhoto';
 
+import Cta from '../../components/cta/Cta';
+
 import ScentPadMarine from '../../assets/Images/Scentpad-marine.jpg'
 import ScentPadFreshDew from '../../assets/Images/Scentpad-fresh-dew.jpg'
 import ScentPadOrient from '../../assets/Images/Scentpad-orient.jpg'
@@ -20,7 +22,7 @@ const Productdata = [ScentPadMarine, ScentPadFreshDew, ScentPadOrient, ScentPadB
 
 function ScentPad() {
     return (
-        <div>
+        <>
             <ProductHeader data={ScentPadData}/>
             <ProductFeatures/>
             <div className="product__photos">
@@ -35,7 +37,9 @@ function ScentPad() {
                    
             </div>
         </div>
-        </div>
+        <Cta/>
+        </>
+        
     )
 }
 

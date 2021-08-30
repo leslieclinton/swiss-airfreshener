@@ -6,6 +6,7 @@ import {Link} from 'react-router-dom';
 import Regular from '../../assets/Images/regular-shop.jpg';
 import Card from '../../assets/Images/card-shop.png';
 import Scentpad from '../../assets/Images/scentpad-shop.jpg';
+import Cta from '../../components/cta/Cta';
 
 const productData =[
     {
@@ -76,6 +77,8 @@ function Shop() {
                 
 
             </div>
+            <Cta/>
+
         </>
     )
 }

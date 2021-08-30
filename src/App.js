@@ -15,6 +15,7 @@ import ScrollToTop from 'react-router-scroll-top'
 import About from './pages/about/About';
 import Liquid from './pages/liquid/Liquid';
 import Gel from './pages/gel/Gel';
+import Distributor from './pages/distributor/Distributor';
 
 // import "swiper/css/bundle";
 
@@ -35,8 +36,8 @@ function App() {
           <Route exact path='/about'  component={About}></Route>
           <Route exact path='/liquid' component={Liquid}></Route>
           <Route exact path='/gel' component={Gel}></Route>
+          <Route exact path='/distributor' component={Distributor}></Route>
         </Switch>
-      <Cta/>
       <Footer/>
       </ScrollToTop>
     </Router>

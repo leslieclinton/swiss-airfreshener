@@ -14,6 +14,8 @@ import Vanilla from '../../assets/Images/regular-vanilla.jpg';
 import Florale from '../../assets/Images/regular-florale.jpg';
 import Lavenda from '../../assets/Images/regular-lavenda.jpg';
 
+import Cta from '../../components/cta/Cta';
+
 
 const Productdata = [
     {
@@ -103,6 +105,7 @@ function Regular() {
                   </Swiper>
             </div>
         </div>
+                <Cta/>
         </div>
     )
 }

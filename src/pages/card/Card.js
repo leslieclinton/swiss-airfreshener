@@ -12,6 +12,7 @@ import Brandedlemon from '../../assets/Images/Branded-lemon.png';
 
 
 import ProductPhoto from '../../components/productPhoto/ProductPhoto';
+import Cta from '../../components/cta/Cta';
 
 
 
@@ -53,6 +54,8 @@ function Card() {
                    
             </div>
         </div>
+
+        <Cta/>
         </div>
     )
 }
