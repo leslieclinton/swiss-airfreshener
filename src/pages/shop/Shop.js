@@ -6,18 +6,17 @@ import {Link} from 'react-router-dom';
 import Regular from '../../assets/Images/regular-shop.jpg';
 import Card from '../../assets/Images/card-shop.png';
 import Scentpad from '../../assets/Images/scentpad-shop.jpg';
-// import regular from '../../assets/Images/card-shop.jpg';
 
 const productData =[
     {
         title: "Buy Swiss Flower Liquid Airfreshener",
         desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Scelerisque semper luctus euismod tellus. Massa nunc, in ridiculus aenean",
-        qty: "Solid in packs",
+        qty: "Sold in packs",
         url: "konga.com",
         photo: ""
     },
     {
-        title: "Buy Swiss Flower Regualr & Refil Airfreshener",
+        title: "Buy Swiss Flower Regular & Refil Airfreshener",
         desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Scelerisque semper luctus euismod tellus. Massa nunc, in ridiculus aenean",
         qty: "Solid in packs",
         url: "konga.com",
@@ -26,21 +25,21 @@ const productData =[
     {
         title: "Buy Swiss Flower Card Airfreshener",
         desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Scelerisque semper luctus euismod tellus. Massa nunc, in ridiculus aenean",
-        qty: "Solid in packs",
+        qty: "Sold in packs",
         url: "konga.com",
         photo: Card
     },
     {
         title: "Buy Swiss Flower Scent pad Airfreshener",
         desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Scelerisque semper luctus euismod tellus. Massa nunc, in ridiculus aenean",
-        qty: "Solid in packs",
+        qty: "Sold in packs",
         url: "konga.com",
         photo: Scentpad
     },
     {
         title: "Buy Swiss Flower Gel Airfreshener",
         desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Scelerisque semper luctus euismod tellus. Massa nunc, in ridiculus aenean",
-        qty: "Solid in packs",
+        qty: "Sold in packs",
         url: "konga.com",
         photo: ""
     },

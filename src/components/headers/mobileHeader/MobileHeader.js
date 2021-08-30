@@ -34,7 +34,7 @@ function MobileHeader() {
                         <p>Simple ingredients with stellar results.  in-house garment care line is tried.Simple ingredients with stellar </p>
 
                         <Link to='/scentpad'>
-                            <div className="d__header-btn">
+                            <div className="m__header-btn">
                                 Explore
                             </div>
                         </Link>
@@ -51,7 +51,7 @@ function MobileHeader() {
                         <p>Simple ingredients with stellar results.  in-house garment care line is tried.Simple ingredients with stellar </p>
 
                         <Link to='/regular'>
-                            <div className="d__header-btn">
+                            <div className="m__header-btn">
                                 Explore
                             </div>
                         </Link>
