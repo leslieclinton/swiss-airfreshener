@@ -22,9 +22,9 @@ function Navbar() {
                 </Link> 
             <div className="desktop__nav-links">
                 <ul>
-                    <li><Link to =''>HOME</Link></li>
-                    <li><Link to =''>LIQUID</Link></li>
-                    <li><Link to =''>GEL</Link></li>
+                    <li><Link to ='/'>HOME</Link></li>
+                    <li><Link to ='/liquid'>LIQUID</Link></li>
+                    <li><Link to ='/gel'>GEL</Link></li>
                     <li><Link to ='/regular'>REFIL & REGULAR</Link></li>
                     <li><Link to ='/card'>CARD</Link></li>
                     <li><Link to ='/scentpad'>SCENT PAD</Link></li>
@@ -56,13 +56,13 @@ function Navbar() {
             <div className={clsx('mobile__nav-links-container', !toggleNav? 'hide-nav':' show-nav ')}>
                  <div className="mobile__nav-links">
                  <ul>
-                     <li><Link to =''>HOME</Link></li>
-                     <li><Link to =''>LIQUID</Link></li>
-                     <li><Link to =''>GEL</Link></li>
-                     <li><Link to =''>REFIL & REGULAR</Link></li>
-                     <li><Link to =''>CARD</Link></li>
-                     <li><Link to =''>SCENT PAD</Link></li>
-                 </ul>
+                    <li><Link to ='/'>HOME</Link></li>
+                    <li><Link to ='/liquid'>LIQUID</Link></li>
+                    <li><Link to ='/gel'>GEL</Link></li>
+                    <li><Link to ='/regular'>REFIL & REGULAR</Link></li>
+                    <li><Link to ='/card'>CARD</Link></li>
+                    <li><Link to ='/scentpad'>SCENT PAD</Link></li>
+                </ul>
                  </div>
  
                  <div className="mobile__nav-btns">

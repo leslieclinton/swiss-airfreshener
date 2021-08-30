@@ -57,6 +57,48 @@
     background-size: cover;
     background-position: 35% 80%;
 }
+.productheader-liquid{
+    background: url('../../assets/Images/card-page-header.jpg') no-repeat;
+    background-size: cover;
+    background-position: 35% 80%;
+    background: #FFEBEB;
+}
+.productheader-gel{
+    background: url('../../assets/Images/card-page-header.jpg') no-repeat;
+    background-size: cover;
+    background-position: 35% 80%;
+    background: #C9F5DB;
+}
+
+
+.productheader-liquid .productheader__content a span{
+    background: #6F50B0;
+    transition: all .3s;
+    color: white;
+}
+.productheader-liquid .productheader__content a span:hover{
+    background: #6a3990;
+    color: white;
+}
+
+.productheader-gel .productheader__content a span{
+    background: #C9F5DB;
+    transition: all .3s;
+    color: black;
+}
+.productheader-gel .productheader__content a span:hover{
+    background: #7dc69b;
+    color: black;
+}
+
+.productheader-card .productheader__content a span{
+    background: #FF3C3C;
+    color: white;
+}
+
+.productheader-card .productheader__content a span:hover{
+    background: #e94e4e;
+}
 
 .productheader-secntpad .productheader__content a span{
     background: #ECDFFD;
