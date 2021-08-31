@@ -11,7 +11,6 @@ import BrandedRed from '../../assets/Images/Branded-red.png';
 import Brandedlemon from '../../assets/Images/Branded-lemon.png';
 
 
-import ProductPhoto from '../../components/productPhoto/ProductPhoto';
 import Cta from '../../components/cta/Cta';
 
 
