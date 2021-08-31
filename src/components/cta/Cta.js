@@ -13,7 +13,7 @@ function Cta() {
 
                     <div className="cta_btn-container">
                         <Link to = '/shop'><span className="cta_btn-1" >Buy Swiss products</span></Link>
-                        <Link to = '/distributors'><span className="cta_btn-2" >Become a distibutor</span></Link>
+                        <Link to = '/distributor'><span className="cta_btn-2" >Become a distibutor</span></Link>
                     </div>
                 </div>
             </div>
