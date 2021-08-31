@@ -30,10 +30,6 @@ const Productdata = [
         title: 'Floarale Regular and Refil',
         photo: ""
     },
-    {
-        title: 'Lavenda Regular and Refil',
-        photo: ""
-    }
 ]
 
 const gelData ={
