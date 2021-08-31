@@ -1,10 +1,16 @@
 import React from 'react';
+import { motion } from 'framer-motion';
+import { pageVariants } from '../../utils/animateVariant';
+
 
 import './Contact.css'
 
 function Contact() {
     return (
-        <div className="contact__container">
+        <motion.div className="contact__container" initial="initial"
+        animate="in"
+        exit="out"
+        variants={pageVariants}> 
             <h1>Contact Us</h1>
             <p>Have a question? Want a bulk order? Have Complains? Send us a message using the form below and we’ll get back to you as soon as we can!</p>
 
@@ -54,7 +60,7 @@ function Contact() {
                 
                
             </div>
-        </div>
+        </motion.div>
     )
 }
 

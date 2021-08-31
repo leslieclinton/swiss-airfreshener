@@ -1,5 +1,5 @@
 import React from 'react';
-import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
+import { Switch, Route, useLocation} from 'react-router-dom';
 import Footer from './components/footer/Footer';
 
 import Navbar from './components/Navbar/Navbar';
@@ -17,31 +17,37 @@ import Gel from './pages/gel/Gel';
 import Distributor from './pages/distributor/Distributor';
 import Contact from './pages/contact/Contact';
 
-// import "swiper/css/bundle";
+
+import {AnimatePresence} from 'framer-motion'
+import NotFound from './pages/notFound/NotFound';
+
+
 
 
 function App() {
+  const location = useLocation()
   return (
     
-    <Router>
       <ScrollToTop>
-      <Topbar/>
-      <Navbar/>
-        <Switch>
-          <Route exact path='/'  component={HomePage}></Route>
-          <Route exact path='/regular'  component={Regular}></Route>
-          <Route exact path='/scentpad'  component={ScentPad}></Route>
-          <Route exact path='/card'  component={Card}></Route>
-          <Route exact path='/shop'  component={Shop}></Route>
-          <Route exact path='/about'  component={About}></Route>
-          <Route exact path='/liquid' component={Liquid}></Route>
-          <Route exact path='/gel' component={Gel}></Route>
-          <Route exact path='/distributor' component={Distributor}></Route>
-          <Route exact path='/contact' component={Contact}></Route>
-        </Switch>
-      <Footer/>
+        <Topbar/>
+        <Navbar/>
+        <AnimatePresence>
+          <Switch location={location} key={location.key}>
+            <Route exact path='/'  component={HomePage}></Route>
+            <Route exact path='/regular'  component={Regular}></Route>
+            <Route exact path='/scentpad'  component={ScentPad}></Route>
+            <Route exact path='/card'  component={Card}></Route>
+            <Route exact path='/shop'  component={Shop}></Route>
+            <Route exact path='/about'  component={About}></Route>
+            <Route exact path='/liquid' component={Liquid}></Route>
+            <Route exact path='/gel' component={Gel}></Route>
+            <Route exact path='/distributor' component={Distributor}></Route>
+            <Route exact path='/contact' component={Contact}></Route>
+            <Route path="*" component={NotFound}></Route>
+          </Switch>
+        </AnimatePresence>
+        <Footer/>
       </ScrollToTop>
-    </Router>
 
   )
 }

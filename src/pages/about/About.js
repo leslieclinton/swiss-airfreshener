@@ -1,11 +1,18 @@
 import React from 'react';
 import Cta from '../../components/cta/Cta';
 import ProductPreview from '../../components/productPreview/ProductPreview';
-import './About.css'
+import './About.css';
+
+import { motion } from 'framer-motion';
+import { pageVariants } from '../../utils/animateVariant';
+
 
 function About() {
     return (
-        <>
+        <motion.div  initial="initial"
+        animate="in"
+        exit="out"
+        variants={pageVariants}>
             <div className="about__header">
                 <h1>Swiss Flower Airfreshner</h1>
                 <p>Simple ingredients with stellar results. Our in-house garment care line is tried-and-true</p>
@@ -25,7 +32,7 @@ function About() {
             <ProductPreview/>
 
             <Cta/>
-        </>
+        </motion.div >
 
     )
 }

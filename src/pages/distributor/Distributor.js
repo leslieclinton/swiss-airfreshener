@@ -1,11 +1,18 @@
 import React from 'react';
 import './Distributor.css';
 
+import { motion } from 'framer-motion';
+import { pageVariants } from '../../utils/animateVariant';
+
+
 import {countryList} from '../../assets/data/countryData'
 
 function Distributor() {
     return (
-        <div className="distributor">
+        <motion.div className="distributor" initial="initial"
+        animate="in"
+        exit="out"
+        variants={pageVariants}>
             <div className="distributor__header">
                 <div className="distributor__img"></div>
                 <h1>Become a distributor</h1>
@@ -61,7 +68,7 @@ function Distributor() {
                 
                 
             </div>
-        </div>
+        </motion.div>
     )
 }
 

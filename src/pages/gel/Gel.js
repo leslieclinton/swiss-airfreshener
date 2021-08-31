@@ -10,7 +10,8 @@ import ProductPhoto from '../../components/productPhoto/ProductPhoto';
 import Cta from '../../components/cta/Cta';
 
 
-
+import { motion } from 'framer-motion';
+import { pageVariants } from '../../utils/animateVariant';
 
 const Productdata = [
     {
@@ -47,7 +48,11 @@ function Gel() {
     SwiperCore.use([Navigation]);
 
     return (
-        <div>
+        <motion.div initial="initial"
+        animate="in"
+        exit="out"
+        variants={pageVariants}>
+          
         <ProductHeader data={gelData}/>
         <ProductFeatures/>
     <div className="product__photos">
@@ -103,7 +108,7 @@ function Gel() {
     </div>
 
     <Cta/>
-    </div>
+    </motion.div>
     )
 }
 

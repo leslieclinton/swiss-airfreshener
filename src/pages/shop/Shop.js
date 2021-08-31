@@ -1,6 +1,9 @@
 import React from 'react';
 import './Shop.css';
 
+import { motion } from 'framer-motion';
+import { pageVariants } from '../../utils/animateVariant';
+
 import {Link} from 'react-router-dom';
 
 import Regular from '../../assets/Images/regular-shop.jpg';
@@ -50,7 +53,10 @@ const productData =[
 
 function Shop() {
     return (
-        <>
+        <motion.div initial="initial"
+        animate="in"
+        exit="out"
+        variants={pageVariants}>
             <div className="shop">
                 <h1>Buy Swiss Flower Airfrehners</h1>
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Scelerisque semper luctus euismod tellus. Massa nunc, in ridiculus aenean.</p>
@@ -79,7 +85,7 @@ function Shop() {
             </div>
             <Cta/>
 
-        </>
+        </motion.div>
     )
 }
 

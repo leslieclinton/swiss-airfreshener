@@ -1,4 +1,7 @@
 import React from 'react';
+import { motion } from 'framer-motion';
+import { pageVariants } from '../../utils/animateVariant';
+
 
 import { Swiper, SwiperSlide } from 'swiper/react';
 import SwiperCore, { Navigation } from 'swiper';  
@@ -51,7 +54,10 @@ function Regular() {
     SwiperCore.use([Navigation]);
 
     return (
-        <div>
+        <motion.div  initial="initial"
+        animate="in"
+        exit="out"
+        variants={pageVariants}>
             <ProductHeader data={regularData}/>
             <ProductFeatures/>
         <div className="product__photos">
@@ -106,7 +112,7 @@ function Regular() {
             </div>
         </div>
                 <Cta/>
-        </div>
+        </motion.div>
     )
 }
 

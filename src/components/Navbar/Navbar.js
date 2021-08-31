@@ -12,6 +12,10 @@ function Navbar() {
             setToggleNav((prev)=> !prev)
         }
 
+        const closeNavHandler =()=>{
+            setToggleNav(false)
+        }
+
     return (
         <>
             <div className="desktop__nav">
@@ -22,12 +26,12 @@ function Navbar() {
                 </Link> 
             <div className="desktop__nav-links">
                 <ul>
-                    <li><Link to ='/'>HOME</Link></li>
-                    <li><Link to ='/liquid'>LIQUID</Link></li>
-                    <li><Link to ='/gel'>GEL</Link></li>
-                    <li><Link to ='/regular'>REFIL & REGULAR</Link></li>
-                    <li><Link to ='/card'>CARD</Link></li>
-                    <li><Link to ='/scentpad'>SCENT PAD</Link></li>
+                    <li><Link to ='/' onClick={closeNavHandler}>HOME</Link></li>
+                    <li><Link to ='/liquid' onClick={closeNavHandler}>LIQUID</Link></li>
+                    <li><Link to ='/gel' onClick={closeNavHandler}>GEL</Link></li>
+                    <li><Link to ='/regular' onClick={closeNavHandler}>REFIL & REGULAR</Link></li>
+                    <li><Link to ='/card' onClick={closeNavHandler}>CARD</Link></li>
+                    <li><Link to ='/scentpad' onClick={closeNavHandler}>SCENT PAD</Link></li>
                 </ul>
             </div>
             <div className="desktop__nav-btns">
@@ -56,12 +60,12 @@ function Navbar() {
             <div className={clsx('mobile__nav-links-container', !toggleNav? 'hide-nav':' show-nav ')}>
                  <div className="mobile__nav-links">
                  <ul>
-                    <li><Link to ='/'>HOME</Link></li>
-                    <li><Link to ='/liquid'>LIQUID</Link></li>
-                    <li><Link to ='/gel'>GEL</Link></li>
-                    <li><Link to ='/regular'>REFIL & REGULAR</Link></li>
-                    <li><Link to ='/card'>CARD</Link></li>
-                    <li><Link to ='/scentpad'>SCENT PAD</Link></li>
+                    <li><Link to ='/' onClick={closeNavHandler}>HOME</Link></li>
+                    <li><Link to ='/liquid' onClick={closeNavHandler}>LIQUID</Link></li>
+                    <li><Link to ='/gel' onClick={closeNavHandler}>GEL</Link></li>
+                    <li><Link to ='/regular' onClick={closeNavHandler}>REFIL & REGULAR</Link></li>
+                    <li><Link to ='/card' onClick={closeNavHandler}>CARD</Link></li>
+                    <li><Link to ='/scentpad' onClick={closeNavHandler}>SCENT PAD</Link></li>
                 </ul>
                  </div>
  

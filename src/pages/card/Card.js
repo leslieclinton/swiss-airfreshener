@@ -12,6 +12,8 @@ import Brandedlemon from '../../assets/Images/Branded-lemon.png';
 
 
 import Cta from '../../components/cta/Cta';
+import { motion } from 'framer-motion';
+import { pageVariants } from '../../utils/animateVariant';
 
 
 
@@ -30,7 +32,10 @@ function Card() {
 
 
     return (
-        <div>
+        <motion.div initial="initial"
+        animate="in"
+        exit="out"
+        variants={pageVariants}>
             <ProductHeader data={cardData}/>
             <ProductFeatures/>
 
@@ -55,7 +60,7 @@ function Card() {
         </div>
 
         <Cta/>
-        </div>
+        </motion.div>
     )
 }
 

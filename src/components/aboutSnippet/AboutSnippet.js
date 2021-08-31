@@ -1,9 +1,32 @@
-import React from 'react';
+import React, {useEffect} from 'react';
 import {Link} from 'react-router-dom'
+import { useInView } from 'react-intersection-observer';
+import {useAnimation, motion} from 'framer-motion'
 
 import './AboutSnippet.css'
 
 function AboutSnippet() {
+    const {ref, inView} = useInView({threshold:0.5});
+    const animation = useAnimation()
+
+    useEffect(()=>{
+        console.log(inView)
+        if(inView){
+            animation.start({
+                x:-30,
+                transition:{ duration: .5}
+            })
+        }
+
+        if(!inView){
+            animation.start({
+                x: 0 
+            })
+        }
+    }, [animation, inView])
+
+
+   
     return (
         <div className="aboutsnippet__container">
             <div className="aboutsnippet">
@@ -14,12 +37,11 @@ function AboutSnippet() {
                     <Link to='/about'><span>See more</span></Link>
                 </div>
 
-                <div className="aboutsnippet__image ">
-                    <div className="aboutsnippet__animate">
-
-                    </div>
+                <motion.div ref={ref} animate={animation} className="aboutsnippet__image ">
+                    <motion.div  className="aboutsnippet__animate">
+                    </motion.div>
                     
-                </div>
+                </motion.div>
 
             </div>
             
