@@ -8,6 +8,14 @@ import ProductFeatures from '../../components/productFeatures/ProductFeatures';
 import ProductHeader from '../../components/productHeader/ProductHeader';
 import ProductPhoto from '../../components/productPhoto/ProductPhoto';
 
+import Tangerine from '../../assets/Images/liquid-tangerine.jpg';
+import CoolFresh from '../../assets/Images/liquid-coolfresh.jpg';
+import SweetPine from '../../assets/Images/liquid-sweetpine.jpg';
+import FreshAir from '../../assets/Images/liquid-freshair.jpg';
+import SpringFlower from '../../assets/Images/liquid-springflower.jpg';
+import GardebFlower from '../../assets/Images/liquid-gardenflower.jpg';
+import SummerScent from '../../assets/Images/liquid-summercent.jpg';
+
 import Cta from '../../components/cta/Cta';
 
 import { motion } from 'framer-motion';
@@ -18,23 +26,31 @@ import { pageVariants } from '../../utils/animateVariant';
 const Productdata = [
     {
         title: 'Tangerine',
-        photo: ""
+        photo: Tangerine
     },
     {
-        title: 'Lemon',
-        photo: ""
+        title: 'Cool Fresh',
+        photo: CoolFresh
     },
     {
-        title: 'Vanilla Regular and Refil',
-        photo: ""
+      title: 'Sweet Pine',
+      photo: SweetPine
     },
     {
-        title: 'Floarale Regular and Refil',
-        photo: ""
+        title: 'Fresh Air',
+        photo: FreshAir
     },
     {
-        title: 'Lavenda Regular and Refil',
-        photo: ""
+        title: 'Spring Flower',
+        photo: SpringFlower
+    },
+    {
+        title: 'Garden Flower',
+        photo: GardebFlower
+    },
+    {
+        title: 'Summer Scent',
+        photo: SummerScent
     }
 ]
 
@@ -58,7 +74,7 @@ function Liquid() {
         <ProductHeader data={liquidData}/>
         <ProductFeatures/>
     <div className="product__photos">
-        <h2>Multiple Designs, Quality Fragrances</h2>
+        <h2>Multiple Fragrances, in 500ml & 250ml.</h2>
         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quis faucibus eleifend augue id ac lectus dictum ultrices mi. </p>
 
         <div className="product__photos-images">

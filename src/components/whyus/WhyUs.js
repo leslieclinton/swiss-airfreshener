@@ -37,7 +37,7 @@ function WhyUs() {
                     </svg>
                 </div>
                 <h3>Long lasting</h3>
-                <p>Simple ingredients with stellar results. Our in-house garment care line is tried-and-true</p>
+                <p>Well manufactured with the very best of ingredients to have a longer lasting life span.</p>
             </motion.div>
             <div className="whyus__card whyus__card-2">
                 <div className="whyus__card-icon">
@@ -50,7 +50,7 @@ function WhyUs() {
 
                 </div>
                 <h3>Quality fragrance</h3>
-                <p>Simple ingredients with stellar results. Our in-house garment care line is tried-and-true</p>
+                <p>Swiss flower airfresheners are well refined to excellence, meeting all standards.</p>
             </div>
             <div className="whyus__card whyus__card-3">
                 <div className="whyus__card-icon">
@@ -63,7 +63,7 @@ function WhyUs() {
 
                 </div>
                 <h3>Affordable price</h3>
-                <p>Simple ingredients with stellar results. Our in-house garment care line is tried-and-true</p>
+                <p>Save more. A competitive pricing designed to meet all demand and budgets.</p>
             </div>
 
         </motion.div>

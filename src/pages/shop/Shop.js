@@ -9,6 +9,8 @@ import {Link} from 'react-router-dom';
 import Regular from '../../assets/Images/regular-shop.jpg';
 import Card from '../../assets/Images/card-shop.png';
 import Scentpad from '../../assets/Images/scentpad-shop.jpg';
+import Liquid from '../../assets/Images/liquid-product-shop.jpg';
+
 import Cta from '../../components/cta/Cta';
 
 const productData =[
@@ -17,7 +19,7 @@ const productData =[
         desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Scelerisque semper luctus euismod tellus. Massa nunc, in ridiculus aenean",
         qty: "Sold in packs",
         url: "konga.com",
-        photo: ""
+        photo: Liquid
     },
     {
         title: "Buy Swiss Flower Regular & Refil Airfreshener",

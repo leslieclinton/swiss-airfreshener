@@ -36,11 +36,11 @@
 }
 
 .productpreview-images-1{
-    background: url('../../assets/Images/swiss-regular-page-img.jpg') no-repeat;
+    background: url('../../assets/Images/liquid-page-img.jpg') no-repeat;
     background-size: cover;
     background-position: center;
     transition: all .5s;
-    background: coral;
+    /* background: coral; */
 }
 
 /* .productpreview-images-1:hover{

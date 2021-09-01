@@ -12,7 +12,7 @@ function DesktopHeader() {
         dots: false,
         fade: true,
         infinite: true,
-        speed: 1000,
+        speed: 1200,
         slidesToShow: 1,
         slidesToScroll: 1,
         autoplay: true,
@@ -28,7 +28,7 @@ function DesktopHeader() {
                 <div className="d__header-content">
                     <h3>Swiss Flower</h3>
                     <h1>Regular & Refil</h1>
-                    <p>Simple ingredients with stellar results.  in-house garment care line is tried.Simple ingredients with stellar </p>
+                    <p>Swiss Flower regular and refil airfreshener comes in multiple frangrances, designed to deodorize your environment. </p>
 
                    <Link to='/regular'>
                         <div className="d__header-btn">
@@ -41,7 +41,7 @@ function DesktopHeader() {
                 <div className="d__header-content">
                     <h3>Swiss Flower</h3>
                     <h1>Scent Pad</h1>
-                    <p>Simple ingredients with stellar results.  in-house garment care line is tried.Simple ingredients with stellar </p>
+                    <p> A reliable odour repellent. It comes in  variety of fragrance keeping your environment fresh with long lasting fragrances.</p>
 
                     <Link to='/scentpad'>
                         <div className="d__header-btn">
