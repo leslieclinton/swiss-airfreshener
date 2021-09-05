@@ -30,7 +30,7 @@ function Navbar() {
                     <li><Link to ='/liquid' onClick={closeNavHandler}>LIQUID</Link></li>
                     <li><Link to ='/gel' onClick={closeNavHandler}>GEL</Link></li>
                     <li><Link to ='/regular' onClick={closeNavHandler}>REFIL & REGULAR</Link></li>
-                    <li><Link to ='/card' onClick={closeNavHandler}>CARD</Link></li>
+                    <li><Link to ='/card' onClick={closeNavHandler}>DANGLER</Link></li>
                     <li><Link to ='/scentpad' onClick={closeNavHandler}>SCENT PAD</Link></li>
                 </ul>
             </div>
@@ -64,7 +64,7 @@ function Navbar() {
                     <li><Link to ='/liquid' onClick={closeNavHandler}>LIQUID</Link></li>
                     <li><Link to ='/gel' onClick={closeNavHandler}>GEL</Link></li>
                     <li><Link to ='/regular' onClick={closeNavHandler}>REFIL & REGULAR</Link></li>
-                    <li><Link to ='/card' onClick={closeNavHandler}>CARD</Link></li>
+                    <li><Link to ='/card' onClick={closeNavHandler}>DANGLER</Link></li>
                     <li><Link to ='/scentpad' onClick={closeNavHandler}>SCENT PAD</Link></li>
                 </ul>
                  </div>

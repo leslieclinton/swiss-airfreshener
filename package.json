@@ -8,6 +8,7 @@
     "@testing-library/user-event": "^12.8.3",
     "animations": "0.0.0",
     "clsx": "^1.1.1",
+    "emailjs-com": "^3.2.0",
     "framer-motion": "^4.1.17",
     "node-sass": "^6.0.1",
     "react": "^17.0.2",

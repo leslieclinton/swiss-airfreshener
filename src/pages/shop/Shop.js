@@ -4,10 +4,9 @@ import './Shop.css';
 import { motion } from 'framer-motion';
 import { pageVariants } from '../../utils/animateVariant';
 
-import {Link} from 'react-router-dom';
 
 import Regular from '../../assets/Images/regular-shop.jpg';
-import Card from '../../assets/Images/card-shop.png';
+import Dangler from '../../assets/Images/card-shop.png';
 import Scentpad from '../../assets/Images/scentpad-shop.jpg';
 import Liquid from '../../assets/Images/liquid-product-shop.jpg';
 
@@ -18,35 +17,35 @@ const productData =[
         title: "Buy Swiss Flower Liquid Airfreshener",
         desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Scelerisque semper luctus euismod tellus. Massa nunc, in ridiculus aenean",
         qty: "Sold in packs",
-        url: "konga.com",
+        url: "https://www.konga.com/search?search=STOVA%20INDUSTRIES%20LTD",
         photo: Liquid
     },
     {
         title: "Buy Swiss Flower Regular & Refil Airfreshener",
         desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Scelerisque semper luctus euismod tellus. Massa nunc, in ridiculus aenean",
         qty: "Solid in packs",
-        url: "konga.com",
+        url: "https://www.konga.com/search?search=STOVA%20INDUSTRIES%20LTD",
         photo: Regular
     },
     {
-        title: "Buy Swiss Flower Card Airfreshener",
+        title: "Buy Swiss Flower Dangler Airfreshener",
         desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Scelerisque semper luctus euismod tellus. Massa nunc, in ridiculus aenean",
         qty: "Sold in packs",
-        url: "konga.com",
-        photo: Card
+        url: "https://www.konga.com/search?search=STOVA%20INDUSTRIES%20LTD",
+        photo: Dangler
     },
     {
         title: "Buy Swiss Flower Scent pad Airfreshener",
         desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Scelerisque semper luctus euismod tellus. Massa nunc, in ridiculus aenean",
         qty: "Sold in packs",
-        url: "konga.com",
+        url: "https://www.konga.com/search?search=STOVA%20INDUSTRIES%20LTD",
         photo: Scentpad
     },
     {
         title: "Buy Swiss Flower Gel Airfreshener",
         desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Scelerisque semper luctus euismod tellus. Massa nunc, in ridiculus aenean",
         qty: "Sold in packs",
-        url: "konga.com",
+        url: "https://www.konga.com/search?search=STOVA%20INDUSTRIES%20LTD",
         photo: ""
     },
 ]
@@ -77,7 +76,7 @@ function Shop() {
                         <p>{product.desc}</p>
                         <h4>{product.qty}</h4>
                     </div>
-                    <Link to={product.url}><div className="product__btn">Buy products</div></Link>
+                    <a href={product.url} target="_blank" rel="noreferrer"><div className="product__btn">Buy products</div></a>
                 </div>
                     )
                 })}

@@ -80,7 +80,7 @@ function ProductPreview() {
                 <Link to='/card'>
                     <div className="productpreview-images productpreview-images-3">
                         <div className="productpreview-products">
-                            <span> Card</span>
+                            <span>Dangler</span>
                         </div>
                     </div>
                 </Link> 
