@@ -1,35 +1,35 @@
-import React, {useEffect} from 'react';
+import React from 'react';
 import './WhyUs.css';
 
-import { useInView } from 'react-intersection-observer';
-import {useAnimation, motion} from 'framer-motion'
+// import { useInView } from 'react-intersection-observer';
+// import {useAnimation, motion} from 'framer-motion'
 
 function WhyUs() {
 
-    const {ref, inView} = useInView({threshold:0.5});
-    const animation = useAnimation()
+    // const {ref, inView} = useInView({threshold:0.5});
+    // const animation = useAnimation()
 
-    useEffect(()=>{
-        console.log(inView)
-        if(inView){
-            animation.start({
-                y: 0,
-                transition:{ duration: .5, type:'tween'}
-            })
-        }
+    // useEffect(()=>{
+    //     console.log(inView)
+    //     if(inView){
+    //         animation.start({
+    //             y: 0,
+    //             transition:{ duration: .5, type:'tween'}
+    //         })
+    //     }
 
-        if(!inView){
-            animation.start({
-                y: 100
-            })
-        }
-    }, [animation, inView])
+    //     if(!inView){
+    //         animation.start({
+    //             y: 100
+    //         })
+    //     }
+    // }, [animation, inView])
 
 
     return (
-        <motion.div  ref = {ref}  animate={animation}  className="whyus__container">
+        <div  className="whyus__container">
 
-            <motion.div className="whyus__card whyus__card-1">
+            <div className="whyus__card whyus__card-1">
                 <div className="whyus__card-icon">
                     <svg width="34" height="34" viewBox="0 0 34 34" fill="none" xmlns="http://www.w3.org/2000/svg">
                         <path d="M17.0437 3.26276C9.46195 3.26276 3.2937 9.43101 3.2937 17.0128C3.2937 24.5945 9.46195 30.7628 17.0437 30.7628C24.6255 30.7628 30.7937 24.5945 30.7937 17.0128C30.7937 9.43101 24.6255 3.26276 17.0437 3.26276ZM17.0437 28.0128C10.9786 28.0128 6.0437 23.0779 6.0437 17.0128C6.0437 10.9476 10.9786 6.01276 17.0437 6.01276C23.1088 6.01276 28.0437 10.9476 28.0437 17.0128C28.0437 23.0779 23.1088 28.0128 17.0437 28.0128Z" fill="black"/>
@@ -38,7 +38,7 @@ function WhyUs() {
                 </div>
                 <h3>Long lasting</h3>
                 <p>Well manufactured with the very best of ingredients to have a longer lasting life span.</p>
-            </motion.div>
+            </div>
             <div className="whyus__card whyus__card-2">
                 <div className="whyus__card-icon">
                     <svg width="30" height="31" viewBox="0 0 30 31" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -66,7 +66,7 @@ function WhyUs() {
                 <p>Save more. A competitive pricing designed to meet all demand and budgets.</p>
             </div>
 
-        </motion.div>
+        </div>
     )
 }
 

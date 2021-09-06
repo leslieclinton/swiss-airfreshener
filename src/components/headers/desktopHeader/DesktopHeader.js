@@ -32,7 +32,7 @@ function DesktopHeader() {
 
                    <Link to='/regular'>
                         <div className="d__header-btn">
-                            Explore
+                            Explore swiss regular
                         </div>
                     </Link>
                 </div>
@@ -45,7 +45,7 @@ function DesktopHeader() {
 
                     <Link to='/scentpad'>
                         <div className="d__header-btn">
-                            Explore
+                            Explore swiss scent pad
                         </div>
                     </Link>
                 </div>
