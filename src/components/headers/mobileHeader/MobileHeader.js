@@ -31,7 +31,7 @@ function MobileHeader() {
                     <div className="m__header-content-container">
                         <h3>Swiss Flower</h3>
                         <h1>Scent Pad</h1>
-                        <p>Simple ingredients with stellar results.  in-house garment care line is tried.Simple ingredients with stellar </p>
+                        <p> A reliable odour repellent. It comes in  variety of fragrance keeping your environment fresh with long lasting fragrances.</p>
 
                         <Link to='/scentpad'>
                             <div className="m__header-btn">
@@ -48,7 +48,7 @@ function MobileHeader() {
                     <div className="m__header-content-container">
                         <h3>Swiss Flower</h3>
                         <h1>Regular & Refil</h1>
-                        <p>Simple ingredients with stellar results.  in-house garment care line is tried.Simple ingredients with stellar </p>
+                        <p>Swiss Flower regular and refil airfreshener comes in multiple frangrances, designed to deodorize your environment. </p>
 
                         <Link to='/regular'>
                             <div className="m__header-btn">
