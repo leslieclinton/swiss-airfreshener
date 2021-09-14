@@ -22,13 +22,14 @@ function Distributor() {
             <div className="distributor__form-container">
 
                     <form action="" className="distibutor__form"> 
+                    
                         <div className="form__section">
                             <label htmlFor="name">Full name</label>
                             <input type="text" id="name" placeholder="Enter your full name"/>
                         </div>
                         <div className="form__section">
                             <label htmlFor="address">Email Address</label>
-                            <input type="email" id="name" placeholder="Enter your address"/>
+                            <input type="email" id="name" placeholder="Enter your email address"/>
                         </div>
                         <div className="form__section">
                             <label htmlFor="name">Phone number</label>
@@ -44,25 +45,25 @@ function Distributor() {
                               
                             </select>
                         </div>
+                        {/* <div className="form__section">
+                            <label htmlFor="business">Business name </label>
+                            <input type="text" id="business" placeholder="Enter your business name if any"/>
+                        </div> */}
+                        
                         <div className="form__section">
-                            <label htmlFor="name">Occupation</label>
-                            <select name="cars" id="cars">
-                                <option value="volvo">Volvo</option>
-                                <option value="saab">Saab</option>
-                                <option value="mercedes">Mercedes</option>
-                                <option value="audi">Audi</option>
-                            </select>
-                        </div>
-                        <div className="form__section">
-                            <label htmlFor="name">Qualifications</label>
-                            <select name="cars" id="cars">
-                                <option value="volvo">Volvo</option>
-                                <option value="saab">Saab</option>
-                                <option value="mercedes">Mercedes</option>
-                                <option value="audi">Audi</option>
+                            <label htmlFor="years">Years of experience</label>
+                            <select  id="years">
+                                <option value="1 - 5 years">1 - 5 Years</option>
+                                <option value="6 - 10 years">6 - 10 years</option>
+                                <option value="11 years and above">11 years and above</option>
                             </select>
                         </div>
 
+                        <div className="form__section form__section-full">
+                            <label htmlFor="areas">Areas intended to to cover</label>
+                            <input type="text" id="areas" placeholder="Enter locations here"/>
+                        </div>
+                    
                         <div className="btn"><button>Submit</button></div>
                     </form>
                 

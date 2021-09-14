@@ -9,6 +9,7 @@ import Regular from '../../assets/Images/regular-shop.jpg';
 import Dangler from '../../assets/Images/card-shop.png';
 import Scentpad from '../../assets/Images/scentpad-shop.jpg';
 import Liquid from '../../assets/Images/liquid-product-shop.jpg';
+import Gel from '../../assets/Images/gel-shop.jpg';
 
 import Cta from '../../components/cta/Cta';
 
@@ -46,7 +47,7 @@ const productData =[
         desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Scelerisque semper luctus euismod tellus. Massa nunc, in ridiculus aenean",
         qty: "Sold in packs",
         url: "https://www.konga.com/search?search=STOVA%20INDUSTRIES%20LTD",
-        photo: ""
+        photo: Gel
     },
 ]
 

@@ -94,12 +94,12 @@
 } */
 
 .productpreview-images-5{
-    background: url('../../assets/Images/swiss-scentpad-page-img.jpg') no-repeat;
-    background-size: 170%;
+    background: url('../../assets/Images/swiss-gel-page-img.jpg') no-repeat;
+    background-size: cover;
     background-position: center;
-    background-position: 55%;
+    /* background-position: 55%; */
     transition: all .5s;
-    background: rgb(219, 182, 255);
+    /* background: rgb(219, 182, 255); */
 
 }
 /* 

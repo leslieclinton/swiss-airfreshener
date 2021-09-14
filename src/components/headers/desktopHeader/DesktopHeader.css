@@ -99,3 +99,11 @@ a .d__header-btn {
     z-index: 99999999999 !important;
 }
 /* SLIICK SLIDER ARROWS  END*/
+
+
+.slick-slide {
+    visibility: hidden;
+  }
+  .slick-slide.slick-active {
+    visibility: visible;
+  }

@@ -30,9 +30,9 @@ function DesktopHeader() {
                     <h1>Regular & Refil</h1>
                     <p>Swiss Flower regular and refil airfreshener comes in multiple frangrances, designed to deodorize your environment. </p>
 
-                   <Link to='/regular'>
+                   <Link to="/regular">
                         <div className="d__header-btn">
-                            Explore swiss regular
+                            Swiss regular
                         </div>
                     </Link>
                 </div>
@@ -43,9 +43,9 @@ function DesktopHeader() {
                     <h1>Scent Pad</h1>
                     <p> A reliable odour repellent. It comes in  variety of fragrance keeping your environment fresh with long lasting fragrances.</p>
 
-                    <Link to='/scentpad'>
+                    <Link to="/scentpad">
                         <div className="d__header-btn">
-                            Explore swiss scent pad
+                            Swiss scent pad
                         </div>
                     </Link>
                 </div>
