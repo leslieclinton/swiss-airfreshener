@@ -58,16 +58,16 @@
     background-position: 35% 80%;
 }
 .productheader-liquid{
-    background: url('../../assets/Images/card-page-header.jpg') no-repeat;
+    background: url('../../assets/Images/liquid-page-header.jpg') no-repeat;
     background-size: cover;
     background-position: 35% 80%;
-    background: #FFEBEB;
+    /* background: #FFEBEB; */
 }
 .productheader-gel{
-    background: url('../../assets/Images/card-page-header.jpg') no-repeat;
+    background: url('../../assets/Images/gel-page-header.jpg') no-repeat;
     background-size: cover;
     background-position: 35% 80%;
-    background: #C9F5DB;
+    /* background: #C9F5DB; */
 }
 
 
@@ -109,11 +109,23 @@
     background: #dec5ff;
 }
 
+.productheader-gel .productheader__content a span{
+    background: #ecc3ff;
+    color: rgb(85, 35, 96);
+}
+
+.productheader-gel .productheader__content a span:hover{
+    background: #e0c8ff;
+    color: rgb(85, 35, 96);
+
+
+}
+
 @media screen and (max-width: 840px) {
     .productheader{
         height: 70rem;
         width: 100%;
-        background: red;
+        /* background: red; */
         position: relative;
     }
     
@@ -172,6 +184,11 @@
         background-size: 210%;
         background-position: 18% 200%
     }
+    .productheader-gel{
+        background: url('../../assets/Images/gel-page-header.jpg') no-repeat;
+        background-size: 180%;
+        background-position: 0% 200%
+    }
     
     .productheader-secntpad .productheader__content a span{
         background: #ECDFFD;
@@ -187,7 +204,7 @@
     .productheader{
         height: 30rem;
         width: 100%;
-        background: red;
+        /* background: red; */
         position: relative;
     }
     

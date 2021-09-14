@@ -9,26 +9,36 @@ import ProductHeader from '../../components/productHeader/ProductHeader';
 import ProductPhoto from '../../components/productPhoto/ProductPhoto';
 import Cta from '../../components/cta/Cta';
 
+import flowerFresh from '../../assets/Images/gel-flowerfresh.jpg'
+import campestra from '../../assets/Images/gel-campestra.jpg'
+import lavenda from '../../assets/Images/gel-lavenda.jpg'
+import tropicana from '../../assets/Images/gel-tropicana.jpg'
+import vanilla from '../../assets/Images/gel-vanilla.jpg'
+
 
 import { motion } from 'framer-motion';
 import { pageVariants } from '../../utils/animateVariant';
 
 const Productdata = [
     {
-        title: 'Tangerine',
-        photo: ""
+        title: 'Flower Fresh',
+        photo: flowerFresh
     },
     {
-        title: 'Lemon',
-        photo: ""
+        title: 'Campestra',
+        photo: campestra
     },
     {
-        title: 'Vanilla Regular and Refil',
-        photo: ""
+        title: 'Lavenda',
+        photo: lavenda
     },
     {
-        title: 'Floarale Regular and Refil',
-        photo: ""
+        title: 'Tropicana',
+        photo: tropicana
+    },
+    {
+        title: 'Vanilla',
+        photo: vanilla
     },
 ]
 
