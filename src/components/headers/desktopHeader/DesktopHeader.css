@@ -13,19 +13,35 @@
     background-position: 100px 0;
     background-size: cover;
 }
+.d__slide-3{
+    background: url('../../../assets/Images/liquid-header-image.jpg') no-repeat;
+    background-position: 100px 0;
+    background-size: cover;
+}
 
 .d__slide-1 .d__header-content{
     height: 100%;
     width: 42%;
-    background: #F94646;
     color: white;
     padding: 8% 10rem 5rem 10%;
+    background: #8A52CC;
+    background: #ff5470;
+
+
 }
 
 .d__slide-2 .d__header-content{
     height: 100%;
     width: 42%;
     background: #8A52CC;
+    color: white;
+    padding: 8% 10rem 5rem 10%;
+    
+}
+.d__slide-3 .d__header-content{
+    height: 100%;
+    width: 42%;
+    background: #F94646;
     color: white;
     padding: 8% 10rem 5rem 10%;
 }

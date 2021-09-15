@@ -1,0 +1,51 @@
+.formresponse__container{
+    height: 50rem;
+    width: 100%;
+    background: rgb(245, 245, 245);
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: flex;
+    align-items: center;
+    /* justify-content: center; */
+    flex-direction: column;
+    padding-top: 10rem;
+    padding-left: 3%;
+    padding-right: 3%;
+}
+
+.formresponse{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+.formresponse h2{
+    font-size: 2rem;
+    margin-top: 5rem;
+    margin-bottom: 1.5rem;
+}
+
+.formresponse p{
+    font-size: 1.5rem;
+    margin-bottom: 5rem;
+}
+
+.formresponse button{
+    font-size: 1.5rem;
+    margin-bottom: 5rem;
+    outline: none;
+    border: none;
+    padding: 2rem 5rem;
+    color: white;
+    background: black;
+    text-align: center;
+    cursor: pointer;
+    transition: all .3s;
+    font-weight: bold;
+}
+.formresponse button:hover{
+    background: rgb(32, 30, 30);
+}

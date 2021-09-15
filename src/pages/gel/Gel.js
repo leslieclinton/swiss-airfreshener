@@ -9,11 +9,14 @@ import ProductHeader from '../../components/productHeader/ProductHeader';
 import ProductPhoto from '../../components/productPhoto/ProductPhoto';
 import Cta from '../../components/cta/Cta';
 
-import flowerFresh from '../../assets/Images/gel-flowerfresh.jpg'
-import campestra from '../../assets/Images/gel-campestra.jpg'
-import lavenda from '../../assets/Images/gel-lavenda.jpg'
-import tropicana from '../../assets/Images/gel-tropicana.jpg'
-import vanilla from '../../assets/Images/gel-vanilla.jpg'
+import flowerFresh from '../../assets/Images/gel-flower-fresh-1.jpg'
+import campestra from '../../assets/Images/gel-campestra-1.jpg'
+import lavenda from '../../assets/Images/gel-lavenda-1.jpg'
+import tropicana from '../../assets/Images/gel-tropicana-1.jpg'
+import vanilla from '../../assets/Images/gel-vanilla-1.jpg'
+import lemon from '../../assets/Images/gel-lemon-1.jpg'
+import multiFruity from '../../assets/Images/gel-multi-fruity-1.jpg'
+import sweetFlorale from '../../assets/Images/gel-sweet-florale-1.jpg'
 
 
 import { motion } from 'framer-motion';
@@ -39,6 +42,18 @@ const Productdata = [
     {
         title: 'Vanilla',
         photo: vanilla
+    },
+    {
+        title: 'Lemon',
+        photo: lemon
+    },
+    {
+        title: 'Multi fruity',
+        photo: multiFruity
+    },
+    {
+        title: 'Sweet Florale',
+        photo: sweetFlorale
     },
 ]
 

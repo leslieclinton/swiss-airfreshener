@@ -50,6 +50,19 @@ function DesktopHeader() {
                     </Link>
                 </div>
             </div>
+            <div className="desktop__header d__slide-3">
+                <div className="d__header-content">
+                    <h3>Swiss Flower</h3>
+                    <h1>Liquid</h1>
+                    <p> Swiss Flower Liquid Air Freshener redefines and gives a refreshing identity on home care products; endowed richly for consumers taste. </p>
+
+                    <Link to="/liquid">
+                        <div className="d__header-btn">
+                            Swiss Liquid
+                        </div>
+                    </Link>
+                </div>
+            </div>
             </SlickSlider>
         </>
 
