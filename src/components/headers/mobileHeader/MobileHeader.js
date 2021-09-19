@@ -59,7 +59,7 @@ function MobileHeader() {
                         <h3>Swiss Flower</h3>
                         <h1>Liquid</h1>
                         <p>Swiss Flower Liquid Air Fresheners comes in sweet distinct fragrances that make your surroundings feel more inviting.  </p>
-                        <Link to='/regular'>
+                        <Link to='/liquid'>
                             <div className="m__header-btn">
                             Swiss Liquid
                             </div>
