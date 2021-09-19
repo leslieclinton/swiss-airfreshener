@@ -66,7 +66,7 @@ async function formValidate(){
 async function sendEmail(e) {
         setIsLoading(true);
         try {
-            const mail = await  emailjs.sendForm(process.env.REACT_APP_SERVICE_ID, process.env.REACT_APP_TEMPLATE_ID, e.target, process.env.REACT_APP_USER_ID);
+           await  emailjs.sendForm(process.env.REACT_APP_SERVICE_ID, process.env.REACT_APP_TEMPLATE_ID, e.target, process.env.REACT_APP_USER_ID);
             setPersonName(formData.name)
             setIsLoading(false);
             setFormData({
