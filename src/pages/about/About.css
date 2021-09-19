@@ -10,7 +10,7 @@
     text-align: center;
 }
 .about__header p{
-    font-size: 1.6rem;
+    font-size: 1.8rem;
     color: white;
     text-align: center;
     width: 30%;
@@ -19,7 +19,7 @@
 
 .about__statement-container{
     display: flex;
-    align-items: center;
+    /* align-items: center; */
     justify-content: center;
     gap: 5rem;
     padding: 8rem 10%;
@@ -28,7 +28,7 @@
 .about__statement{
     height: auto;
     width: 50%;
-    padding: 5rem 8rem;
+    padding: 5rem 6rem;
     background: #F0F4F9;
 }
 
@@ -39,7 +39,7 @@
 }
 
 .about__statement p{
-    font-size: 1.6rem;
+    font-size: 1.8rem;
     text-align: center;
 }
 

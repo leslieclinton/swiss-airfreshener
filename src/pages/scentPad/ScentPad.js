@@ -33,8 +33,8 @@ function ScentPad() {
             <ProductHeader data={ScentPadData}/>
             <ProductFeatures/>
             <div className="product__photos">
-            <h2>Multiple Designs, Quality Fragrances</h2>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quis faucibus eleifend augue id ac lectus dictum ultrices mi. </p>
+            <h2>Multiple Fragrances</h2>
+            {/* <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quis faucibus eleifend augue id ac lectus dictum ultrices mi. </p> */}
 
             <div className="scent__photos-images">
             {Productdata.map((photo, i)=>{

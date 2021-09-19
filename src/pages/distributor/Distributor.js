@@ -114,7 +114,7 @@ function handleAnotherMessage(){
             <div className="distributor__header">
                 <div className="distributor__img"></div>
                 <h1>Become a distributor</h1>
-                <p>Have a question? Want a bulk order? Have Complains? Send us a message using the form below and we’ll get back to you as soon as we can!</p>
+                <p>We are looking for experienced result drivien distributors who are capable of actively distributing our products globally. If interested, fill and submit the form below.</p>
             </div>
 
             <div className="distributor__form-container">
@@ -159,7 +159,7 @@ function handleAnotherMessage(){
                     </div>
 
                     <div className="form__section form__section-full">
-                        <label htmlFor="areas">Areas intended to to cover</label>
+                        <label htmlFor="areas">Area intended to cover</label>
                         <input type="text" id="areas" placeholder="Enter locations here" name="areas" value={formData.areas} onChange={handleChange}/>
                     </div>
                             {formError?<h2 className='formerror'>Check your entries</h2> : null}

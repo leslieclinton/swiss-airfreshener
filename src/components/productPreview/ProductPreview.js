@@ -19,7 +19,7 @@ function ProductPreview() {
     return (
         <div className="productpreview">
             <h2>Swiss flower products</h2>
-            <p>We offer a range of Air Fresheners, and a wide choice of different  fragrances specifically aimed at freshening your world.</p>
+            <p>We offer a range of Air Fresheners, and a wide choice of different  fragrances specifically aimed at freshening your sorroundings.</p>
 
 
             <Swiper

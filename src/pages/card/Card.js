@@ -48,7 +48,7 @@ function Card() {
 
             <div className="product__photos">
             <h2>Multiple Designs, Quality Fragrances</h2>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quis faucibus eleifend augue id ac lectus dictum ultrices mi. </p>
+            {/* <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quis faucibus eleifend augue id ac lectus dictum ultrices mi. </p> */}
 
             <div className="card__photos-images">
             {Productdata.map((photo, i)=>{

@@ -75,7 +75,7 @@ function Liquid() {
         <ProductFeatures/>
     <div className="product__photos">
         <h2>Multiple Fragrances, in 500ml & 250ml.</h2>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quis faucibus eleifend augue id ac lectus dictum ultrices mi. </p>
+        {/* <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quis faucibus eleifend augue id ac lectus dictum ultrices mi. </p> */}
 
         <div className="product__photos-images">
         <Swiper

@@ -10,19 +10,24 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    gap: 7rem
+    gap: 4rem
 }
 .p__feature{
     display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: column;
+    background: white;
+    padding: 2rem;
+    border-radius: 1rem;
+    box-shadow: 0 .4rem 1rem .3rem #00000005;
+
 }
 
 .p__feature-icon{
     height: 6rem;
     width: 6rem;
-    background: white;
+    background: whitesmoke;
     border-radius: 5rem;
     margin-bottom: 1.2rem;
     display: flex;

@@ -1,29 +1,9 @@
 import React from 'react';
 import './WhyUs.css';
 
-// import { useInView } from 'react-intersection-observer';
-// import {useAnimation, motion} from 'framer-motion'
 
 function WhyUs() {
 
-    // const {ref, inView} = useInView({threshold:0.5});
-    // const animation = useAnimation()
-
-    // useEffect(()=>{
-    //     console.log(inView)
-    //     if(inView){
-    //         animation.start({
-    //             y: 0,
-    //             transition:{ duration: .5, type:'tween'}
-    //         })
-    //     }
-
-    //     if(!inView){
-    //         animation.start({
-    //             y: 100
-    //         })
-    //     }
-    // }, [animation, inView])
 
 
     return (

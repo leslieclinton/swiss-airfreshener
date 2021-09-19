@@ -15,17 +15,17 @@ function About() {
         variants={pageVariants}>
             <div className="about__header">
                 <h1>Swiss Flower Airfreshner</h1>
-                <p>Simple ingredients with stellar results. Our in-house garment care line is tried-and-true</p>
+                <p>A product of Stova Industries LTD. The home of quality home care products.</p>
             </div>
 
             <div className="about__statement-container">
                 <div className="about__statement">
                     <h3>Our Mission</h3>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Scelerisque semper luctus euismod tellus. Massa nunc, in ridiculus aenean. Bibendum et sollicitudin nulla netus mauris blandit ut accumsan. Tortor odio odio ridiculus erat. Convallis sel, ac egestas.</p>
+                    <p>To build long-term relationship with our customers in producing quality products and good customer services by pursuing business through innovation and application of advance technology.</p>
                 </div>
                 <div className="about__statement">
                     <h3>Our Vision</h3>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Scelerisque semper luctus euismod tellus. Massa nunc, in ridiculus aenean. Bibendum et sollicitudin nulla netus mauris blandit ut accumsan. Tortor odio odio ridiculus erat. Convallis sel, ac egestas.</p>
+                    <p>To be a market leader in fast moving consumer products, air care products and house care products in Sub-Saharan and the world at large by producing good quality products of international standard.</p>
                 </div>
             </div>
 
