@@ -61,7 +61,7 @@ function Shop() {
         variants={pageVariants}>
             <div className="shop">
                 <h1>Buy Swiss Flower Airfrehners</h1>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Scelerisque semper luctus euismod tellus. Massa nunc, in ridiculus aenean.</p>
+                <p>Add more fresheness to your home, cars, workspace etc. Shop our irresistible Swiss Flower aromatic scents.</p>
             </div>
 
             <div className="products__container">

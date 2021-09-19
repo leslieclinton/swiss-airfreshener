@@ -6,14 +6,14 @@ const pageVariants = {
   },
   in: {
     opacity: 1,
-    y:-10,
+    y:0,
     transition:{duration: 1}
 
   },
   out: {
     opacity: 0,
     y: 10,
-    transition:{duration: .5}
+    transition:{duration: .3}
 
   },
 }

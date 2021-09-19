@@ -12,7 +12,7 @@ function AboutSnippet() {
 
                 <div className="aboutsnippet__content">
                     <h2>About Swiss Flower Airfreshener</h2>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quis faucibus eleifend augue id ac lectus dictum ultrices mi. Nunc tincidunt nulla tellus justo tempor nisl. Elit arcu id pulvinar lectus habitant tempor tellus, habitasse. Elementum nulla aliquet a, mauris, luctus sit leo.</p>
+                    <p>We are on a mission to deliver pleasant and irresistible aromatic scents. Our collection consists of carefully formulated fragrances aimed at making your home, offices, workspace, cars, etc. smell good and inviting.</p>
                     <Link to='/about'><span>See more</span></Link>
                 </div>
 
