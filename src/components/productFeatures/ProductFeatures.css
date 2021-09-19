@@ -42,7 +42,7 @@
 }
 
 
-@media screen and (max-width: 840px) {
+@media screen and (max-width: 900px) {
     .p__features-container{
         height: 115rem;
         width: 100%;
@@ -76,7 +76,7 @@
 }
 
 
-@media screen and (max-width: 840px) {
+@media screen and (max-width: 900px) {
     .p__features-container{
         height: 115rem;
         width: 100%;
@@ -110,7 +110,7 @@
 }
 
 
-@media screen and (max-width: 840px) {
+@media screen and (max-width: 900px) {
     .p__features-container{
         height: 115rem;
         width: 100%;

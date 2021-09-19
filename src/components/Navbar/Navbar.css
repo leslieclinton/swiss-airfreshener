@@ -103,7 +103,7 @@
     display: none;
 }
 
-@media screen and (max-width: 840px) {
+@media screen and (max-width: 900px) {
     .desktop__nav{
         display: none;
     }

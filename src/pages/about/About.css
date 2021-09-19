@@ -43,7 +43,7 @@
     text-align: center;
 }
 
-@media screen and (max-width:840px) {
+@media screen and (max-width:900px) {
     .about__header{
         height: 30rem;
         width: 100%;

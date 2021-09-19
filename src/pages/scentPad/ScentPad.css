@@ -21,7 +21,7 @@
     transform: scale(115%);
 }
 
-@media screen and (max-width:840px) {
+@media screen and (max-width:900px) {
     .scent__jumbotron-container{
         padding: 8rem 6% 0 6%;
     }
