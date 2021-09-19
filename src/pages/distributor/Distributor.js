@@ -7,7 +7,6 @@ import {countryList} from '../../assets/data/countryData'
 
 
 import emailjs from 'emailjs-com';
-// import Laoding from '../loading/Laoding';
 
 import Loading from '../../components/loading/Laoding';
 

@@ -271,5 +271,18 @@
     .productheader-secntpad .productheader__content a span:hover{
         background: #dec5ff;
     }
+
+    .productheader-liquid{
+        background: url('../../assets/Images/liquid-page-header.jpg') no-repeat;
+        background-size: cover;
+        background-position: 0% 80%;
+        /* background: #FFEBEB; */
+    }
+
+    .productheader-gel{
+        background: url('../../assets/Images/gel-page-header.jpg') no-repeat;
+        background-size: 180%;
+        background-position: 0% -10%
+    }
     
 }

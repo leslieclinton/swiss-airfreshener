@@ -93,6 +93,9 @@
 
 
 @media screen and (max-width:840px) {
+    .shop {
+        padding: 0 5%;
+    }
     .shop h1{
         font-size: 3.5rem;
     }
@@ -122,6 +125,10 @@
         background: rgb(255, 209, 209);
         margin-right: 0;
         margin-bottom: 5rem;
+    }
+
+    .product__texts{
+        width: 100%;
     }
     
     .product h2{
@@ -154,17 +161,21 @@
 }
 
 @media screen and (max-width:640px) {
+
+    .shop {
+        padding: 0 10%;
+    }
     .shop h1{
         font-size: 2.2rem;
     }
     .shop p{
         font-size: 1.5rem;
-        width: 80%;
+        width: 100%;
         margin:1rem auto
     }
     .products__container{
         margin-top:5rem;
-        padding: 0 5%;
+        padding: 5%;
     }
     
     .product{

@@ -70,7 +70,7 @@ function Regular() {
                         // when window width is >= 640px
                         300: {
                           width: 300,
-                          slidesPerView: 1.05,
+                          slidesPerView: 1.1,
                           navigation :"false"
                         },
                         // when window width is >= 640px

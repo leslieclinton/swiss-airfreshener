@@ -48,7 +48,8 @@
     }
     .product__photos h2{
         font-size: 2.5rem;
-        margin-bottom: 2rem;    
+        margin-bottom: 2rem;
+        padding: 0 5%;    
     }
     .product__photos p{
         font-size: 1.6rem;

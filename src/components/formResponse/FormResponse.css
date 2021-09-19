@@ -1,5 +1,5 @@
 .formresponse__container{
-    height: 50rem;
+    height: 60rem;
     width: 100%;
     background: rgb(245, 245, 245);
     position: absolute;
@@ -9,7 +9,7 @@
     align-items: center;
     /* justify-content: center; */
     flex-direction: column;
-    padding-top: 10rem;
+    padding-top: 2rem;
     padding-left: 3%;
     padding-right: 3%;
 }
@@ -31,6 +31,7 @@
 .formresponse p{
     font-size: 1.5rem;
     margin-bottom: 5rem;
+    width: 100% !important;
 }
 
 .formresponse button{

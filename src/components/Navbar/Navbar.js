@@ -47,9 +47,12 @@ function Navbar() {
         </div>
 
         <div className="mobile__nav">
-            <div className="mobile__nav-logo">
-                <img src={SwissLogo} alt="Swiss Logo" />
-            </div>
+            
+            <Link to="/">
+                <div className="mobile__nav-logo">
+                    <img src={SwissLogo} alt="Swiss Logo" />
+                </div>
+            </Link>
             <div className={clsx(!toggleNav? "mobile__nav-hamburger-open" :"mobile__nav-hamburger-close"  )}onClick={navToggleHnadler}>
                 <div className="nav-ham-item"></div>
                 <div className="nav-ham-item"></div>

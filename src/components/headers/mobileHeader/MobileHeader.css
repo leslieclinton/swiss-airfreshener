@@ -24,6 +24,14 @@
 
 }
 
+.m__slide-3{
+    background:url('../../../assets/Images/liquid-header-image.jpg') no-repeat;
+    background-size: 200%;
+    background-position-x: 68%;
+    background-position-y: 0%;
+
+}
+
 
 .m__slide-1 .m__header-content{
     background: linear-gradient(#37ff0000 20%, #8A52CC 55%);
@@ -39,6 +47,19 @@
 }
 
 .m__slide-2 .m__header-content{
+    background: linear-gradient(#37ff0000 20%, #F94646 55%);
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    bottom: 0rem;
+    left: 0;
+    padding:13% 5%;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+}
+
+.m__slide-3 .m__header-content{
     background: linear-gradient(#37ff0000 20%, #F94646 55%);
     height: 100%;
     width: 100%;

@@ -5,6 +5,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    padding-top: 100rem;
 }
 .p__features{
     display: flex;
@@ -153,11 +154,13 @@
         margin-top: -8rem;
         justify-content: center;
         padding-bottom: 10rem;
+        padding-left: 5%;
+        padding-right: 5%;
     }
 
     .p__features{
         display: grid;
-        align-items: center;
+        align-items: stretch;
         justify-content: center;
         grid-template-columns: repeat(2, 1fr);
         gap: 3rem;
