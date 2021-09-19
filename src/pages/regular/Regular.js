@@ -45,7 +45,7 @@ const Productdata = [
 
 const regularData ={
     heading:'Swiss Refil & Regular Airfreshner.',
-    description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Scelerisque semper luctus euismod tellus. Massa nunc, in ridiculus aenean. Bibendum et sollicitudin nulla netus mauris blandit ut accumsan. Tortor odio odio ridiculus erat. Convallis scelerisque iaculis cursus velit platea sed in. Magna mus neque sed sed duis vel, ac egestas.',
+    description: 'Swiss Refil & Regular Airfreshner is well saturated with fragrance to purify the air, eliminate odour and emit natural  aroma. It comes in a well designed refilable case for easy usage. It features up to 8 fragrances, Lemon, Campestra, Tropicana, Sweet Florale, Flower Fresh, Vanilla and Multi-fruity.',
     classname: 'productheader-regular'
 }
 
