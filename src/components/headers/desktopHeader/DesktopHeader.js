@@ -54,7 +54,7 @@ function DesktopHeader() {
                 <div className="d__header-content">
                     <h3>Swiss Flower</h3>
                     <h1>Liquid</h1>
-                    <p> Swiss Flower Liquid Air Freshener redefines and gives a refreshing identity on home care products; endowed richly for consumers taste. </p>
+                    <p>Swiss Flower Liquid Air Fresheners comes in sweet distinct fragrances that make your surroundings feel more inviting.  </p>
 
                     <Link to="/liquid">
                         <div className="d__header-btn">

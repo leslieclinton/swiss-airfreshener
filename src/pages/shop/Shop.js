@@ -15,36 +15,36 @@ import Cta from '../../components/cta/Cta';
 
 const productData =[
     {
-        title: "Buy Swiss Flower Liquid Airfreshener",
-        desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Scelerisque semper luctus euismod tellus. Massa nunc, in ridiculus aenean",
+        title: "Swiss Flower Liquid Airfreshener",
+        desc: "Swiss Flower Liquid Air Fresheners comes in sweet distinct fragrances that make your surroundings feel more inviting.",
         qty: "Sold in packs",
         url: "https://www.konga.com/search?search=STOVA%20INDUSTRIES%20LTD",
         photo: Liquid
     },
     {
-        title: "Buy Swiss Flower Regular & Refil Airfreshener",
-        desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Scelerisque semper luctus euismod tellus. Massa nunc, in ridiculus aenean",
+        title: "Swiss Flower Regular & Refil Airfreshener",
+        desc: "Swiss Flower regular and refil airfreshener comes in multiple frangrances, designed to deodorize your environment.",
         qty: "Solid in packs",
         url: "https://www.konga.com/search?search=STOVA%20INDUSTRIES%20LTD",
         photo: Regular
     },
     {
-        title: "Buy Swiss Flower Dangler Airfreshener",
-        desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Scelerisque semper luctus euismod tellus. Massa nunc, in ridiculus aenean",
+        title: "Swiss Flower Dangler Airfreshener",
+        desc: "Swiss Flower Branded Car Dangling Air Freshener comes in superior quality fragrance and amazing colours.",
         qty: "Sold in packs",
         url: "https://www.konga.com/search?search=STOVA%20INDUSTRIES%20LTD",
         photo: Dangler
     },
     {
-        title: "Buy Swiss Flower Scent pad Airfreshener",
-        desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Scelerisque semper luctus euismod tellus. Massa nunc, in ridiculus aenean",
+        title: "Swiss Flower Scent pad Airfreshener",
+        desc: "A reliable odour repellent. It comes in  variety of fragrance keeping your environment fresh with long lasting fragrances.",
         qty: "Sold in packs",
         url: "https://www.konga.com/search?search=STOVA%20INDUSTRIES%20LTD",
         photo: Scentpad
     },
     {
-        title: "Buy Swiss Flower Gel Airfreshener",
-        desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Scelerisque semper luctus euismod tellus. Massa nunc, in ridiculus aenean",
+        title: "Swiss Flower Gel Airfreshener",
+        desc: "Swiss Flower Gel is known for dispensing sweet aromas in the air. It helps in keeping your sorroundings smelling fresh.",
         qty: "Sold in packs",
         url: "https://www.konga.com/search?search=STOVA%20INDUSTRIES%20LTD",
         photo: Gel
