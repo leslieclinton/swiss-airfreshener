@@ -44,7 +44,7 @@
 }
 
 .footer__comapny-contact{
-    display: flex;
+    display: block;
     align-items: center;
 }
 

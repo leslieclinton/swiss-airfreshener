@@ -113,7 +113,7 @@ function handleAnotherMessage(){
             <div className="distributor__header">
                 <div className="distributor__img"></div>
                 <h1>Become a distributor</h1>
-                <p>We are looking for experienced result drivien distributors who are capable of actively distributing our products globally. If interested, fill and submit the form below.</p>
+                <p>We are looking for experienced result driven distributors who are capable of actively distributing our products globally. If interested, fill and submit the form below.</p>
             </div>
 
             <div className="distributor__form-container">

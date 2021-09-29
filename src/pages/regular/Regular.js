@@ -34,7 +34,7 @@ const Productdata = [
         photo: Vanilla
     },
     {
-        title: 'Floarale Regular and Refil',
+        title: 'Sweet Florale Regular and Refil',
         photo: Florale
     },
     {
@@ -45,7 +45,7 @@ const Productdata = [
 
 const regularData ={
     heading:'Swiss Refil & Regular Airfreshner.',
-    description: 'Swiss Refil & Regular Airfreshner is well saturated with fragrance to purify the air, eliminate odour and emit natural  aroma. It comes in a well designed refilable case for easy usage. It features up to 8 fragrances, Lemon, Campestra, Tropicana, Sweet Florale, Flower Fresh, Vanilla and Multi-fruity.',
+    description: 'Swiss Refil & Regular Airfreshner is well saturated with fragrance to purify the air, eliminate odour and emit natural  aroma. It comes in a well designed refilable case for easy usage. It features up to multiple fragrances, Lemon, Campestra, Tropicana, Sweet Florale, Vanilla, Multi-fruity, etc.',
     classname: 'productheader-regular'
 }
 
