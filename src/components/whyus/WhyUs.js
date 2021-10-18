@@ -30,7 +30,7 @@ function WhyUs() {
 
                 </div>
                 <h3>Quality fragrance</h3>
-                <p>Swiss flower airfresheners are well refined to excellence, meeting all standards.</p>
+                <p>Swiss flower air fresheners are well refined to excellence, meeting all standards.</p>
             </div>
             <div className="whyus__card whyus__card-3">
                 <div className="whyus__card-icon">

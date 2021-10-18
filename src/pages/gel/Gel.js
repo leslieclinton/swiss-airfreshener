@@ -58,8 +58,8 @@ const Productdata = [
 ]
 
 const gelData ={
-    heading:'Swiss Flower Gel Airfreshner.',
-    description: 'Swiss Flower Gel is known for dispensing sweet aromas in the air. It is carefully formulated with essential oils and other quality ingredients which helps in keeping your sorroundings smelling fresh and clean. It comes in multiple fragrances, Lemon, Campestra, Tropicana, Sweet Florale, Vanilla, Multi-fruity, etc. ',
+    heading:'Swiss Flower Gel Air freshener.',
+    description: 'Swiss Flower Gel is known for dispensing sweet aromas in the air. It is carefully formulated with essential oils and other quality ingredients which helps in keeping your surroundings smelling fresh and clean. It comes in multiple fragrances, Lemon, Campestra, Tropicana, Sweet Florale, Vanilla, Multi-fruity, etc. ',
     classname: 'productheader-gel'
 }
 

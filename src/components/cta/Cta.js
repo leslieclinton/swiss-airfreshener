@@ -8,7 +8,7 @@ function Cta() {
             <div className="cta">
                 <div className="cta__image"></div>
                 <div className="cta__content">
-                    <h2>Buy Swiss Flower Airfreshener</h2>
+                    <h2>Buy Swiss Flower Air freshener</h2>
                     <p>Our products are loved and used by millions of homes, become a part of our story today.</p>
 
                     <div className="cta_btn-container">

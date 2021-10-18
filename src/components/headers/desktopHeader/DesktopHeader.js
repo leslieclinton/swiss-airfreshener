@@ -28,7 +28,7 @@ function DesktopHeader() {
                 <div className="d__header-content">
                     <h3>Swiss Flower</h3>
                     <h1>Regular & Refil</h1>
-                    <p>Swiss Flower regular and refil airfreshener comes in multiple frangrances, designed to deodorize your environment. </p>
+                    <p>Swiss Flower regular and refil air freshener comes in multiple frangrances, designed to deodorize your environment. </p>
 
                    <Link to="/regular">
                         <div className="d__header-btn">

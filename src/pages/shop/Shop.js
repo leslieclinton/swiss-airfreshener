@@ -15,35 +15,35 @@ import Cta from '../../components/cta/Cta';
 
 const productData =[
     {
-        title: "Swiss Flower Liquid Airfreshener",
+        title: "Swiss Flower Liquid Air freshener",
         desc: "Swiss Flower Liquid Air Fresheners comes in sweet distinct fragrances that make your surroundings feel more inviting.",
         qty: "Sold in packs",
         url: "https://www.konga.com/search?search=STOVA%20INDUSTRIES%20LTD",
         photo: Liquid
     },
     {
-        title: "Swiss Flower Regular & Refil Airfreshener",
-        desc: "Swiss Flower regular and refil airfreshener comes in multiple frangrances, designed to deodorize your environment.",
+        title: "Swiss Flower Regular & Refil Air freshener",
+        desc: "Swiss Flower regular and refil air freshener comes in multiple frangrances, designed to deodorize your environment.",
         qty: "Solid in packs",
         url: "https://www.konga.com/search?search=STOVA%20INDUSTRIES%20LTD",
         photo: Regular
     },
     {
-        title: "Swiss Flower Dangler Airfreshener",
+        title: "Swiss Flower Dangler Air freshener",
         desc: "Swiss Flower Branded Car Dangling Air Freshener comes in superior quality fragrance and amazing colours.",
         qty: "Sold in packs",
         url: "https://www.konga.com/search?search=STOVA%20INDUSTRIES%20LTD",
         photo: Dangler
     },
     {
-        title: "Swiss Flower Scent pad Airfreshener",
+        title: "Swiss Flower Scent pad Air freshener",
         desc: "A reliable odour repellent. It comes in  variety of fragrance keeping your environment fresh with long lasting fragrances.",
         qty: "Sold in packs",
         url: "https://www.konga.com/search?search=STOVA%20INDUSTRIES%20LTD",
         photo: Scentpad
     },
     {
-        title: "Swiss Flower Gel Airfreshener",
+        title: "Swiss Flower Gel Air freshener",
         desc: "Swiss Flower Gel is known for dispensing sweet aromas in the air. It helps in keeping your sorroundings smelling fresh.",
         qty: "Sold in packs",
         url: "https://www.konga.com/search?search=STOVA%20INDUSTRIES%20LTD",
@@ -60,8 +60,8 @@ function Shop() {
         exit="out"
         variants={pageVariants}>
             <div className="shop">
-                <h1>Buy Swiss Flower Airfrehners</h1>
-                <p>Add more fresheness to your home, cars, workspace etc. Shop our irresistible Swiss Flower aromatic scents.</p>
+                <h1>Buy Swiss Flower Airfreheners</h1>
+                <p>Add more freshness to your home, cars, workspace, etc. Shop our irresistible Swiss Flower aromatic scents.</p>
             </div>
 
             <div className="products__container">

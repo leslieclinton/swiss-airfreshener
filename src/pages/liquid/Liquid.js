@@ -55,8 +55,8 @@ const Productdata = [
 ]
 
 const liquidData ={
-    heading:'Swiss Flower Liquid Airfreshner.',
-    description: 'Swiss Flower Liquid Air comes in sweet fragrances that  make your surroundings feel more inviting. Swiss Flower  Liquid Air Fresheners are suitable for Hotels, Hospitals, Banks, Airplanes,  Automobiles, Ships and other habitable places. It comes in various fragrances, Tangerine, Cool Fresh, Summer Scent, Sweet Pine,  Spring Flower, Fresh Air and Garden Flower. ',
+    heading:'Swiss Flower Liquid Airfreshener.',
+    description: 'Swiss Flower Liquid Air comes in sweet fragrances that make your surroundings feel more inviting. Swiss Flower Liquid Air Fresheners are suitable for Hotels, Hospitals, Banks, Airplanes, Automobiles, Ships, and other habitable places. It comes in various fragrances, Tangerine, Cool Fresh, Summer Scent, Sweet Pine, Spring Flower, Fresh Air, and Garden Flower.',
     classname: 'productheader-liquid'
 }
 

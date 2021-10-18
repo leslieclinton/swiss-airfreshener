@@ -44,7 +44,7 @@ function MobileHeader() {
                     <div className="m__header-content-container">
                         <h3>Swiss Flower</h3>
                         <h1>Regular & Refil</h1>
-                        <p>Swiss Flower regular and refil airfreshener comes in multiple frangrances, designed to deodorize your environment. </p>
+                        <p>Swiss Flower regular and refil air freshener comes in multiple frangrances, designed to deodorize your environment. </p>
                         <Link to='/regular'>
                             <div className="m__header-btn">
                                 Swiss Regular
