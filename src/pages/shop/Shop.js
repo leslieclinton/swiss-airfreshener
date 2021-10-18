@@ -37,7 +37,7 @@ const productData =[
     },
     {
         title: "Swiss Flower Scent pad Air freshener",
-        desc: "A reliable odour repellent. It comes in  variety of fragrance keeping your environment fresh with long lasting fragrances.",
+        desc: "A reliable odour repellent. It comes in variety of fragrance keeping your environment fresh with long lasting fragrances.",
         qty: "Sold in packs",
         url: "https://www.konga.com/search?search=STOVA%20INDUSTRIES%20LTD",
         photo: Scentpad
