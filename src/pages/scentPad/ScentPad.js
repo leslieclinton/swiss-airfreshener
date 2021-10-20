@@ -17,7 +17,7 @@ import ScentPadBlossom from '../../assets/Images/Scentpad-blossom.jpg'
 
 const ScentPadData ={
     heading:'Swiss Scent Pad Air freshener.',
-    description: 'A reliable odour repellent. It comes in a variety of fragrances keeping your environment fresh with long-lasting fragrances. It comes in various fragrances of Vanilla, Multi Fruity, Lemon, Lavenda, Campestra, Tropicana, and Sweet Florale keeping your environment fresh with long-lasting fragrances. It is a reliable odour repellent.',
+    description: 'A reliable odour repellent. It comes in a variety of fragrances keeping your environment fresh with long-lasting fragrances. It comes in various fragrances of Vanilla, Multi Fruity, Lemon, Lavenda, Campestra, Tropicana, and Sweet Florale.',
     classname: 'productheader-secntpad'
 }
 

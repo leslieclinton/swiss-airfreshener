@@ -1,125 +1,120 @@
-.desktop__header{
-    height: 54.5rem;
-    width: 100%;
+.desktop__header {
+  height: 54.5rem;
+  width: 100%;
 }
 
-.d__slide-1{
-    background: url('../../../assets/Images/Regular-header-img.jpg') no-repeat;
-    background-position: right;
-    background-size: 80%;
+.d__slide-1 {
+  background: url("../../../assets/Images/Regular-header-img.jpg") no-repeat;
+  background-position: right;
+  background-size: 80%;
 }
-.d__slide-2{
-    background: url('../../../assets/Images/Scent-pad-header-image.jpg') no-repeat;
-    background-position: 100px 0;
-    background-size: cover;
+.d__slide-2 {
+  background: url("../../../assets/Images/Scent-pad-header-image.jpg") no-repeat;
+  background-position: 100px 0;
+  background-size: cover;
 }
-.d__slide-3{
-    background: url('../../../assets/Images/liquid-header-image.jpg') no-repeat;
-    background-position: 100px 0;
-    background-size: cover;
-}
-
-.d__slide-1 .d__header-content{
-    height: 100%;
-    width: 42%;
-    color: white;
-    padding: 8% 10rem 5rem 10%;
-    background: #8A52CC;
-    background: #ff5470;
-
-
+.d__slide-3 {
+  background: url("../../../assets/Images/liquid-header-image.jpg") no-repeat;
+  background-position: 100px 0;
+  background-size: cover;
 }
 
-.d__slide-2 .d__header-content{
-    height: 100%;
-    width: 42%;
-    background: #8A52CC;
-    color: white;
-    padding: 8% 10rem 5rem 10%;
-    
+.d__slide-1 .d__header-content {
+  height: 100%;
+  width: 42%;
+  color: white;
+  padding: 8% 10rem 5rem 10%;
+  background: #8a52cc;
+  background: #ff5470;
 }
-.d__slide-3 .d__header-content{
-    height: 100%;
-    width: 42%;
-    background: #F94646;
-    color: white;
-    padding: 8% 10rem 5rem 10%;
+
+.d__slide-2 .d__header-content {
+  height: 100%;
+  width: 42%;
+  background: #8a52cc;
+  color: white;
+  padding: 8% 10rem 5rem 10%;
+}
+.d__slide-3 .d__header-content {
+  height: 100%;
+  width: 42%;
+  background: #f94646;
+  color: white;
+  padding: 8% 10rem 5rem 10%;
 }
 
 .d__header-content h3 {
-    font-size: 2.5rem;
+  font-size: 2.5rem;
 }
 
 .d__header-content h1 {
-    font-size: 5rem;
-    line-height: 5rem;
-    margin-bottom: 2rem;
+  font-size: 5rem;
+  line-height: 5rem;
+  margin-bottom: 2rem;
 }
 
 .d__header-content P {
-    font-size: 1.7rem;
-    margin-bottom: 4rem;
+  font-size: 1.7rem;
+  margin-bottom: 4rem;
 }
 
 .d__header-btn {
-    text-align: center;
-    width: 19.5rem;
-    height: 5.8rem;
-    background: #ffffff30;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    font-size: 1.8rem;
-    border-radius: 5rem;
-    transition: all .3s;
-    font-weight: bolder;
-    cursor: pointer;
+  text-align: center;
+  width: fit-content;
+  height: 5.8rem;
+  background: #ffffff30;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.8rem;
+  border-radius: 5rem;
+  transition: all 0.3s;
+  font-weight: bolder;
+  cursor: pointer;
+  padding: 0 4rem;
 }
 a .d__header-btn {
-    color: white
+  color: white;
 }
 
 .d__header-btn:hover {
-    background: #ffffff40
-
+  background: #ffffff40;
 }
-
 
 /* SLIICK SLIDER ARROWS */
-.slider-arrow-left{
-    left: 2%;
-    top: 50%;
-    transform: translateY(-50%);
+.slider-arrow-left {
+  left: 2%;
+  top: 50%;
+  transform: translateY(-50%);
 }
 
-.slider-arrow-right{
-    right: 2%;
-    top: 50%;
-    transform: translateY(-50%);
+.slider-arrow-right {
+  right: 2%;
+  top: 50%;
+  transform: translateY(-50%);
 }
 
-.slick-next{
-    right: 2% !important;
-    z-index: 99999999999 !important;
+.slick-next {
+  right: 2% !important;
+  z-index: 99999999999 !important;
 }
 
-.slick-arrow{
-    width: 50px !important;
-    height: 50px !important;
-    background: #ffffff30 !important;
-    border-radius: 50px;
+.slick-arrow {
+  width: 50px !important;
+  height: 50px !important;
+  background: #ffffff30 !important;
+  border-radius: 50px;
 }
 
 .slick-prev {
-    left: 2% !important;
-    z-index: 99999999999 !important;
+  left: 2% !important;
+  z-index: 99999999999 !important;
 }
 /* SLIICK SLIDER ARROWS  END*/
 
-
 .slick-slide {
-    visibility: hidden;
-  }
-  .slick-slide.slick-active {
-    visibility: visible;
-  }
+  visibility: hidden;
+}
+.slick-slide.slick-active {
+  visibility: visible;
+}

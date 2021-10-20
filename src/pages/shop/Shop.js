@@ -30,21 +30,21 @@ const productData =[
     },
     {
         title: "Swiss Flower Dangler Air freshener",
-        desc: "Swiss Flower Branded Car Dangling Air Freshener comes in superior quality fragrance and amazing colours.",
+        desc: "Swiss Flower Branded Car Dangling Air Freshener comes in superior quality fragrances with amazing colours.",
         qty: "Sold in packs",
         url: "https://www.konga.com/search?search=STOVA%20INDUSTRIES%20LTD",
         photo: Dangler
     },
     {
         title: "Swiss Flower Scent pad Air freshener",
-        desc: "A reliable odour repellent. It comes in variety of fragrance keeping your environment fresh with long lasting fragrances.",
+        desc: "A reliable odour repellent. It comes in variety of distinct fragrances which helps in keeping your environment fresh always.",
         qty: "Sold in packs",
         url: "https://www.konga.com/search?search=STOVA%20INDUSTRIES%20LTD",
         photo: Scentpad
     },
     {
         title: "Swiss Flower Gel Air freshener",
-        desc: "Swiss Flower Gel is known for dispensing sweet aromas in the air. It helps in keeping your sorroundings smelling fresh.",
+        desc: "Swiss Flower Gel is known for dispensing sweet scenta in the air. It helps in keeping your sorroundings smelling fresh.",
         qty: "Sold in packs",
         url: "https://www.konga.com/search?search=STOVA%20INDUSTRIES%20LTD",
         photo: Gel

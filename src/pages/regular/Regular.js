@@ -44,8 +44,8 @@ const Productdata = [
 ]
 
 const regularData ={
-    heading:'Swiss Refil & Regular Air freshener.',
-    description: 'Swiss Refill & Regular Air freshener is well saturated with fragrance to purify the air, eliminate odour and emit natural aroma. It comes in a well-designed refillable case for easy usage. It features multiple fragrances including Lemon, Campestra, Tropicana, Sweet Florale, Vanilla, Multi-fruity, etc.',
+    heading:'Swiss Regular & Refil Air freshener.',
+    description: 'Swiss Refill & Regular Air freshener is well saturated with fragrance to purify the air, eliminate bad odour and emit natural scents. It comes in a well-designed refillable case for easy usage. It features multiple fragrances including Lemon, Campestra, Tropicana, Sweet Florale, Vanilla, Multi-fruity, etc.',
     classname: 'productheader-regular'
 }
 

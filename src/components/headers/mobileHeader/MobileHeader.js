@@ -30,10 +30,10 @@ function MobileHeader() {
                     <div className="m__header-content-container">
                         <h3>Swiss Flower</h3>
                         <h1>Scent Pad</h1>
-                        <p> A reliable odour repellent. It comes in  variety of fragrance keeping your environment fresh with long lasting fragrances.</p>
+                        <p> A reliable odour repellent. It comes in variety of fragrance keeping your environment fresh with long lasting scents.</p>
                         <Link to='/scentpad'>
                             <div className="m__header-btn">
-                                Swiss Scent Pad
+                                Swiss Flower Scent Pad
                             </div>
                         </Link>
                     </div>
@@ -44,10 +44,10 @@ function MobileHeader() {
                     <div className="m__header-content-container">
                         <h3>Swiss Flower</h3>
                         <h1>Regular & Refil</h1>
-                        <p>Swiss Flower regular and refil air freshener comes in multiple frangrances, designed to deodorize your environment. </p>
+                        <p>Swiss Flower Regular and Refil Air Freshener comes in multiple frangrances, designed to deodorize your environment. </p>
                         <Link to='/regular'>
                             <div className="m__header-btn">
-                                Swiss Regular
+                                Swiss Flower Regular
                             </div>
                         </Link>
                      </div>
@@ -61,7 +61,7 @@ function MobileHeader() {
                         <p>Swiss Flower Liquid Air Fresheners comes in sweet distinct fragrances that make your surroundings feel more inviting.  </p>
                         <Link to='/liquid'>
                             <div className="m__header-btn">
-                            Swiss Liquid
+                            Swiss Flower Liquid
                             </div>
                         </Link>
                      </div>

@@ -11,7 +11,7 @@ function ProductHeader({data}) {
             <div className="productheader__content ">
                <h2>{heading}</h2>
                 <p>{description}</p>
-                <Link to='/'><span>Buy swiss products </span></Link>
+                <Link to='/'><span>Buy Swiss Flower Products </span></Link>
             </div>
         </div>
     )

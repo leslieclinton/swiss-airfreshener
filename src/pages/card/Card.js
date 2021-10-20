@@ -19,7 +19,7 @@ import { pageVariants } from '../../utils/animateVariant';
 
 const cardData ={
     heading:'Swiss Car Dangler Air freshener.',
-    description: 'Swiss Flower Branded Car Dangling Air Freshener comes in superior quality fragrance in amazing colours. Produced from natural extracts. Renowned as “The King of Car freshness”, keeps your car fresh every minute and moment. Swiss Flower Branded Car Air Fresheners is a famous household name across national borders.',
+    description: 'Swiss Flower Branded Car Dangling Air Freshener comes in superior quality fragrance in amazing colours. Produced from natural extracts. Renowned as “The King of Car freshness”, keeps your car fresh every minute and moment. Swiss Flower Dangling Car Air Fresheners is a famous household name across national borders.',
     classname: 'productheader-card'
 }
 
