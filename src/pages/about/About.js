@@ -14,7 +14,7 @@ function About() {
         exit="out"
         variants={pageVariants}>
             <div className="about__header">
-                <h1>Swiss Flower Airfreshner</h1>
+                <h1>Swiss Flower Air freshener</h1>
                 <p>A product of Stova Industries LTD. The home of quality home care products.</p>
             </div>
 

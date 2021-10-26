@@ -23,28 +23,28 @@ const productData =[
     },
     {
         title: "Swiss Flower Regular & Refil Air freshener",
-        desc: "Swiss Flower regular and refil air freshener comes in multiple frangrances, designed to deodorize your environment.",
+        desc: "Swiss Flower Regular and Refil Air Freshener comes in multiple fragrances, designed to deodorize your environment.",
         qty: "Solid in packs",
         url: "https://www.konga.com/search?search=STOVA%20INDUSTRIES%20LTD",
         photo: Regular
     },
     {
         title: "Swiss Flower Dangler Air freshener",
-        desc: "Swiss Flower Branded Car Dangling Air Freshener comes in superior quality fragrances with amazing colours.",
+        desc: "Swiss Flower Branded Car Dangling Air Fresheners come in superior quality fragrances with amazing colours.",
         qty: "Sold in packs",
         url: "https://www.konga.com/search?search=STOVA%20INDUSTRIES%20LTD",
         photo: Dangler
     },
     {
-        title: "Swiss Flower Scent pad Air freshener",
-        desc: "A reliable odour repellent. It comes in variety of distinct fragrances which helps in keeping your environment fresh always.",
+        title: "Swiss Flower Scent Pad Air freshener",
+        desc: "A reliable odour repellent. It comes in a variety of distinct fragrances which helps in keeping your environment fresh always.",
         qty: "Sold in packs",
         url: "https://www.konga.com/search?search=STOVA%20INDUSTRIES%20LTD",
         photo: Scentpad
     },
     {
         title: "Swiss Flower Gel Air freshener",
-        desc: "Swiss Flower Gel is known for dispensing sweet scenta in the air. It helps in keeping your sorroundings smelling fresh.",
+        desc: "Swiss Flower Gel is known for dispensing sweet scents in the air. It helps in keeping your surroundings smelling fresh.",
         qty: "Sold in packs",
         url: "https://www.konga.com/search?search=STOVA%20INDUSTRIES%20LTD",
         photo: Gel
@@ -60,7 +60,7 @@ function Shop() {
         exit="out"
         variants={pageVariants}>
             <div className="shop">
-                <h1>Buy Swiss Flower Air freheners</h1>
+                <h1>Buy Swiss Flower Air Freheners</h1>
                 <p>Add more freshness to your home, cars, workspace, etc. Shop our irresistible Swiss Flower aromatic scents.</p>
             </div>
 
